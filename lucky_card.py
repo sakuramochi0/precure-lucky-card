@@ -11,6 +11,7 @@ import yaml
 import sys
 from time import sleep
 import random
+from datetime.datetime import now
 
 # settings
 db_file = 'cards.yaml'
@@ -140,8 +141,15 @@ def tweet(status=''):
             card_text = card[1]['card_text']
 
         # generate status
-        status = '今日のラッキーカードは、{model}の{cn}のカード！「{ct}」今日がハッピーな一日でありますように…！'.format(
-            model=model, cn=card_name, ct=card_text)
+        morning = now().hour < 16
+        if morning:
+            status = '今日のラッキーカードは、{model}の{cn}のカード！\
+            「{ct}」今日がハッピーな一日になりますように…！'\
+                .format(model=model, cn=card_name, ct=card_text)
+        else:
+            status = '今日のラッキーカードは、{model}の{cn}のカードでした。\
+            今日はハッピーな一日にできたかな…？'\
+                .format(model=model, cn=card_name, ct=card_text)
         
         # tweet
         if not img_url:
@@ -160,7 +168,7 @@ def tweet(status=''):
         # write que
         if len(que) == 0: # que list is empty
             shuffle()  # make new que
-        else:
+        elif not morning:
             with open(que_file, 'w') as f:
                 f.write(yaml.dump(que))
 
