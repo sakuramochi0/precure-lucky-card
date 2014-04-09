@@ -2,3 +2,6 @@
 /img
 /ques.yaml
 /cards.yaml
+/.credentials_for_test
+/res_test.py
+/sample_res.json
