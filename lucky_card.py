@@ -146,15 +146,14 @@ def tweet(status=''):
         # generate status
         morning = datetime.now().hour < 16
         if morning:
-            status = '今日のラッキーカードは、{model}の{cn}のカード！「{ct}」今日がハッピーな一日になりますように！'\
+            status = '今日のラッキーカードは、{model}の「{cn}」のカードです！「{ct}」今日がハッピーな一日になりますように！'\
                 .format(model=model, cn=card_name, ct=card_text)
         else:
-            status = '今日のラッキーカードは、{model}の{cn}のカードでした。今日はハッピーな一日にできたかな？'\
+            status = '今日のラッキーカードは、{model}の「{cn}」のカードでした。今日はハッピーな一日にできたかな？'\
                 .format(model=model, cn=card_name, ct=card_text)
         
         # tweet
         if not img_url:
-            print('not img_url')
             img = open(img_dir + img_both, 'rb')
             res = t.update_status_with_media(status=status, media=img)
             img_url = res['entities']['media'][0]['url']
@@ -164,9 +163,7 @@ def tweet(status=''):
                 cards[card_id]['img_url'] = img_url
                 db.write(yaml.dump(cards))
         else:
-            print('img_url exist')
             status += ' ' + img_url
-            print('status:', status)
             res = t.update_status(status=status)
         
         # write que
@@ -176,13 +173,23 @@ def tweet(status=''):
             with open(que_file, 'w') as f:
                 f.write(yaml.dump(que))
 
+def clear():
+    '''Clear img_url to re-upload image files.'''
+    with open(db_file) as f:
+        cards = yaml.load(f)
+    for card_id in cards.keys():
+        del cards[card_id]['img_url']
+    with open(que_file, 'w') as f:
+        f.write(yaml.dump(cards))
+                
 if __name__ == '__main__':
     usage = '''\
 usage: {0} <command> [<args>]
 command:
   download [<series_id>]  Download cards data and images from the site.
-  tweet [<status>]       Tweet a que[status].
-  shuffle                 Generate a shuffled que list.'''.format(basename(sys.argv[0]))
+  tweet [<status>]        Tweet a que[status].
+  shuffle                 Generate a shuffled que list.
+  clear                   Clear img_url from the db_file.'''.format(basename(sys.argv[0]))
     if len(sys.argv) == 1:
         print(usage)
     else:
@@ -199,3 +206,5 @@ command:
                 tweet()
         elif sys.argv[1] == 'shuffle':
             shuffle()
+        elif sys.argv[1] == 'clear':
+            clear()
