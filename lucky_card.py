@@ -11,7 +11,7 @@ import yaml
 import sys
 from time import sleep
 import random
-from datetime.datetime import now
+from datetime import datetime
 
 # settings
 db_file = 'cards.yaml'
@@ -134,35 +134,39 @@ def tweet(status=''):
             que = yaml.load(f)
             card = que.pop(0).popitem() # => tuple(card_id, {...})
             card_id = card[0]
-            img_path = card[1]['img_path']
-            img_url = card[1]['img_url']
+            img_both = card[1]['img_both']
+            if 'img_url' in card[1]:
+                img_url = card[1]['img_url']
+            else:
+                img_url = ''
             model = card[1]['model']
             card_name = card[1]['card_name']
             card_text = card[1]['card_text']
 
         # generate status
-        morning = now().hour < 16
+        morning = datetime.now().hour < 16
         if morning:
-            status = '今日のラッキーカードは、{model}の{cn}のカード！\
-            「{ct}」今日がハッピーな一日になりますように…！'\
+            status = '今日のラッキーカードは、{model}の{cn}のカード！「{ct}」今日がハッピーな一日になりますように！'\
                 .format(model=model, cn=card_name, ct=card_text)
         else:
-            status = '今日のラッキーカードは、{model}の{cn}のカードでした。\
-            今日はハッピーな一日にできたかな…？'\
+            status = '今日のラッキーカードは、{model}の{cn}のカードでした。今日はハッピーな一日にできたかな？'\
                 .format(model=model, cn=card_name, ct=card_text)
         
         # tweet
         if not img_url:
-            img = open(img_path, 'rb')
+            print('not img_url')
+            img = open(img_dir + img_both, 'rb')
             res = t.update_status_with_media(status=status, media=img)
             img_url = res['entities']['media'][0]['url']
             # update db
-            with open(db_file) as db:
+            with open(db_file, 'r+') as db:
                 cards = yaml.load(db)
                 cards[card_id]['img_url'] = img_url
                 db.write(yaml.dump(cards))
         else:
+            print('img_url exist')
             status += ' ' + img_url
+            print('status:', status)
             res = t.update_status(status=status)
         
         # write que
