@@ -12,12 +12,14 @@ import sys
 from time import sleep
 import random
 from datetime import datetime
+from dateutil import parser
 
 # settings
 db_file = 'cards.yaml'
 que_file = 'ques.yaml'
-cred_file = '.credentials'
+log_file = 'tweet.log'
 img_dir = 'img/'
+cred_file = '.credentials'
 
 def download(series_id=''):
     '''Download data from dcd site, and update database.'''
@@ -42,7 +44,7 @@ def download(series_id=''):
         series_id = re.search(r'category=(\d+)', site_card_list_url).group(1) # 123456
         header = card.td.text.strip()
         series_text, no, no_max = re.search(r'(.+)(\d{2})/(\d{2})', header).groups() # i.e. 'ハピネスチャージ2だん キュアハニー登場 22/48'
-        card_name = card.find(class_='cardname').text # 素敵なカードだよ
+        card_name = card.find(class_='cardname').text # 花がらドレス
         model = card.find(class_='item').text         # 愛乃めぐみ
         img_front = basename(card.find_all('a')[0].img['src'])
         img_back = basename(card.find_all('a')[1].img['src'])
@@ -59,7 +61,7 @@ def download(series_id=''):
             rarity = 'n-hc'
         elif rarity == 'img_rare_prc-hc.gif':
             rarity = 'prc-hc'
-        card_text = card.find(class_='card_txt').text
+        card_text = card.find(class_='card_txt').text # 素敵なカードだよ
         card_id = series_id + '-' + no # i.e. 123456-22
         if card_id in cards.keys():    # avoid double download
             print('This card has already downloaded. Skip.')
@@ -108,25 +110,25 @@ def download(series_id=''):
         
 def shuffle():
     '''Create a list of shuffled cards to make a que file.'''
-    with open(db_file) as f:
-        cards = yaml.load(f)
+    with open(db_file) as db:
+        cards = yaml.load(db)
     card_ids = list(cards.keys())
     random.shuffle(card_ids)
     que = []
     for card_id in card_ids:
         que.append({card_id: cards[card_id]})
-    with open(que_file, 'w') as f:
-        f.write(yaml.dump(que))
+    with open(que_file, 'w') as q:
+        q.write(yaml.dump(que))
 
 def tweet(status=''):
     '''Tweet a que.'''
     # twitter instance
     with open(cred_file) as f:
         app_key, app_secret, oauth_token, oauth_secret = \
-                            [x.split()[0] for x in open('.credentials')]
+                            [x.strip() for x in f]
     t = Twython(app_key, app_secret, oauth_token, oauth_secret)
     
-    if status:  # manual tweet
+    if status: # manual tweet
         t.update_status(status=status)
     else:
         # read que
@@ -149,7 +151,7 @@ def tweet(status=''):
             status = '今日のラッキーカードは、{model}の「{cn}」のカードです！「{ct}」今日がハッピーな一日になりますように！'\
                 .format(model=model, cn=card_name, ct=card_text)
         else:
-            status = '今日のラッキーカードは、{model}の「{cn}」のカードでした。今日はハッピーな一日にできたかな？'\
+            status = '今日も一日お疲れさま！今日のラッキーカードは、{model}の「{cn}」のカードでした。ハッピーな一日にできたかな？'\
                 .format(model=model, cn=card_name, ct=card_text)
         
         # tweet
@@ -157,11 +159,15 @@ def tweet(status=''):
             img = open(img_dir + img_both, 'rb')
             res = t.update_status_with_media(status=status, media=img)
             img_url = res['entities']['media'][0]['url']
-            # update db
+            # add img_url to db & que
             with open(db_file, 'r+') as db:
                 cards = yaml.load(db)
                 cards[card_id]['img_url'] = img_url
                 db.write(yaml.dump(cards))
+            with open(que_file, 'r+') as q:
+                cards = yaml.load(q)
+                cards[card_id]['img_url'] = img_url
+                q.write(yaml.dump(cards))
         else:
             status += ' ' + img_url
             res = t.update_status(status=status)
@@ -170,29 +176,41 @@ def tweet(status=''):
         if len(que) == 0: # que list is empty
             shuffle()  # make new que
         elif not morning:
-            with open(que_file, 'w') as f:
-                f.write(yaml.dump(que))
+            with open(que_file, 'w') as q:
+                q.write(yaml.dump(que))
+
+        # write tweet status log
+        time = parser.parse(res['created_at']).astimezone()
+        time = datetime.strftime(time, '%Y-%m-%d %H:%M:%S')
+        status = res['text']
+        with open(log_file, 'a') as log:
+            log.write(','.join([time,status]) + '\t')
 
 def clear():
     '''Clear img_url to re-upload image files.'''
-    with open(db_file) as f:
-        cards = yaml.load(f)
+    with open(db_file) as db:
+        cards = yaml.load(db)
     for card_id in cards.keys():
         del cards[card_id]['img_url']
-    with open(que_file, 'w') as f:
-        f.write(yaml.dump(cards))
+    with open(que_file, 'w') as q:
+        q.write(yaml.dump(cards))
                 
 if __name__ == '__main__':
     usage = '''\
-usage: {0} <command> [<args>]
+usage: {0} [test] <command> [<args>]
 command:
   download [<series_id>]  Download cards data and images from the site.
   tweet [<status>]        Tweet a que[status].
   shuffle                 Generate a shuffled que list.
-  clear                   Clear img_url from the db_file.'''.format(basename(sys.argv[0]))
+  clear                   Clear img_url from the db_file.
+test:
+  if 'test' is given as the first argument, post tweet to the test account.'''.format(basename(sys.argv[0]))
     if len(sys.argv) == 1:
         print(usage)
     else:
+        if sys.argv[1] == 'test':
+            cred_file = '.credentials_for_test'
+            sys.argv.pop(1)
         if sys.argv[1] == 'download':
             if len(sys.argv) > 2:
                 series_id = sys.argv[2]
