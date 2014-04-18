@@ -39,6 +39,7 @@ def download(series_id=''):
     r.encoding = 'utf-8'  # prevent moji-bake
     soup = BeautifulSoup(r.text)
     site_cards = soup.find_all('table')[1:]
+    new_cardlist = []
     for card in site_cards:
         series_name = basename(dirname(card.find_all('a')[0].img['src'])) # parent dirname i.e. 'happiness02'
         series_id = re.search(r'category=(\d+)', site_card_list_url).group(1) # 123456
@@ -64,7 +65,7 @@ def download(series_id=''):
         card_text = card.find(class_='card_txt').text # 素敵なカードだよ
         card_id = series_id + '-' + no # i.e. 123456-22
         if card_id in cards.keys():    # avoid double download
-            print('This card has already downloaded. Skip.')
+            print('This card has already downloaded. Skip. :', card_id, card_name)
             continue
         else:
             cards[card_id] = {'series_name': series_name,
@@ -84,29 +85,43 @@ def download(series_id=''):
         print('Get a new card.')
         print('='*8)
         print(cards[card_id])
-        # download card img
+        # download and concatenate card image
         site_img_urls = [site_img_url_base + series_name + '/' + img_front,
                          site_img_url_base + series_name + '/' + img_back]
         imgs = []
         for site_img_url in site_img_urls:
             r = requests.get(site_img_url)
             imgs.append(Image.open(BytesIO(r.content)))
-        w = sum(i.size[0] for i in imgs)
+        w = sum(i.size[0] for i in imgs) + 20
         mh = max(i.size[1] for i in imgs)
         res = Image.new("RGBA", (w,mh))
         x = 0
         for i in imgs:
             res.paste(i, (x, 0))
-            x += i.size[0]
+            x += (i.size[0] + 20)
         res.save(img_dir + img_both)
+
+        # add to new_cardlist
+        new_cardlist.append('{}「{}」'.format(model, card_name))
+        
         print('='*8)
         print('Download and concatenate two card image:', img_both)
         sleep(0.5)
         
     # write db
     with open(db_file, 'w') as db:
-        db.write(yaml.dump(cards))
-
+        yaml.dump(cards, db)
+    if not test and new_cardlist:
+        tweet('カードリスト ({}) が更新されました！ 追加されたのは次の{}枚のカードです。'.format(site_url, len(new_cardlist)))
+        new_cardlist = ' / '.join(new_cardlist)
+        new_cardlists = []
+        while len(new_cardlist) > 0:
+            new_cardlists.append(new_cardlist[:140])
+            new_cardlist = new_cardlist[140:]
+        for card in new_cardlists:
+            tweet(card)
+            sleep(1)
+        shuffle()
         
 def shuffle():
     '''Create a list of shuffled cards to make a que file.'''
@@ -114,11 +129,11 @@ def shuffle():
         cards = yaml.load(db)
     card_ids = list(cards.keys())
     random.shuffle(card_ids)
-    que = []
+    ques = []
     for card_id in card_ids:
-        que.append({card_id: cards[card_id]})
+        ques.append(card_id)
     with open(que_file, 'w') as q:
-        q.write(yaml.dump(que))
+        yaml.dump(ques, q)
 
 def tweet(status=''):
     '''Tweet a que.'''
@@ -132,18 +147,20 @@ def tweet(status=''):
         t.update_status(status=status)
     else:
         # read que
-        with open(que_file) as f:
-            que = yaml.load(f)
-            card = que.pop(0).popitem() # => tuple(card_id, {...})
-            card_id = card[0]
-            img_both = card[1]['img_both']
-            if 'img_url' in card[1]:
-                img_url = card[1]['img_url']
-            else:
-                img_url = ''
-            model = card[1]['model']
-            card_name = card[1]['card_name']
-            card_text = card[1]['card_text']
+        with open(que_file) as q:
+            que = yaml.load(q)
+        card_id = que[0]
+        with open(db_file) as db:
+            cards = yaml.load(db)
+        card = cards[card_id]
+        img_both = card['img_both']
+        if 'img_url' in card.keys():
+            img_url = card['img_url']
+        else:
+            img_url = ''
+        model = card['model']
+        card_name = card['card_name']
+        card_text = card['card_text']
 
         # generate status
         morning = datetime.now().hour < 16
@@ -153,47 +170,50 @@ def tweet(status=''):
         else:
             status = '今日も一日お疲れさま！今日のラッキーカードは、{model}の「{cn}」のカードでした。ハッピーな一日にできたかな？'\
                 .format(model=model, cn=card_name, ct=card_text)
-        
+
         # tweet
-        if not img_url:
+        if img_url:
+            status += ' ' + img_url
+            res = t.update_status(status=status)
+        else:
             img = open(img_dir + img_both, 'rb')
             res = t.update_status_with_media(status=status, media=img)
             img_url = res['entities']['media'][0]['url']
-            # add img_url to db & que
-            with open(db_file, 'r+') as db:
-                cards = yaml.load(db)
-                cards[card_id]['img_url'] = img_url
-                db.write(yaml.dump(cards))
-            with open(que_file, 'r+') as q:
-                cards = yaml.load(q)
-                cards[card_id]['img_url'] = img_url
-                q.write(yaml.dump(cards))
-        else:
-            status += ' ' + img_url
-            res = t.update_status(status=status)
-        
-        # write que
-        if len(que) == 0: # que list is empty
-            shuffle()  # make new que
-        elif not morning:
+            # add img_url to db
+            if not test:
+                with open(db_file) as db:
+                    cards = yaml.load(db)
+                    cards[card_id]['img_url'] = img_url
+                with open(db_file, 'w') as db:
+                    yaml.dump(cards, db)
+
+        # on the evening, pop ques and check new card list
+        if not morning and not test:
+            with open(que_file) as q:
+                ques = yaml.load(q)
+            ques.pop(0)
             with open(que_file, 'w') as q:
-                q.write(yaml.dump(que))
+                yaml.dump(ques, q)
+            if len(ques) == 0: # que list is empty
+                shuffle()  # make new que
 
         # write tweet status log
         time = parser.parse(res['created_at']).astimezone()
         time = datetime.strftime(time, '%Y-%m-%d %H:%M:%S')
         status = res['text']
+        log_text = ','.join([time,str(test),card_id,status]) + '\n'
+        print('Tweet:', log_text)
         with open(log_file, 'a') as log:
-            log.write(','.join([time,status]) + '\t')
-
+            log.write(log_text)
+                
 def clear():
     '''Clear img_url to re-upload image files.'''
     with open(db_file) as db:
         cards = yaml.load(db)
     for card_id in cards.keys():
         del cards[card_id]['img_url']
-    with open(que_file, 'w') as q:
-        q.write(yaml.dump(cards))
+    with open(db_file, 'w') as db:
+        yaml.dump(cards, db)
                 
 if __name__ == '__main__':
     usage = '''\
@@ -209,8 +229,11 @@ test:
         print(usage)
     else:
         if sys.argv[1] == 'test':
+            test = True
             cred_file = '.credentials_for_test'
             sys.argv.pop(1)
+        else:
+            test = False
         if sys.argv[1] == 'download':
             if len(sys.argv) > 2:
                 series_id = sys.argv[2]
