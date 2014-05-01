@@ -27,6 +27,10 @@ site_img_url_base = 'http://precure-live.com/allstars/image/cardlist/'
 def download(series_id=''):
     '''Download data from dcd site, and update database.'''
     # download card data
+    site_url = 'http://precure-live.com/allstars/cardlist/'
+    site_url_with_category = 'http://precure-live.com/allstars/cardlist/happiness.php?search=true&category='
+    site_img_url_base = 'http://precure-live.com/allstars/image/cardlist/'
+
     if series_id:
         site_url = site_url_with_category + series_id
     if exists(db_file):
@@ -75,7 +79,7 @@ def download(series_id=''):
         card_text = card.find(class_='card_txt').text # 素敵なカードだよ
         card_id = series_id + '-' + no # i.e. 123456-22
         if card_id in cards.keys():    # avoid double download
-            print('This card has already downloaded. Skip. :', card_id, card_name)
+            # print('This card has already downloaded. Skip. :', card_id, card_name)
             continue
         else:
             cards[card_id] = {'series_name': series_name,
