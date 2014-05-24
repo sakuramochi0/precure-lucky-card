@@ -118,15 +118,22 @@ def download(series_id=''):
     # write db
     with open(db_file, 'w') as db:
         yaml.dump(cards, db)
+
+    # tweet update
     if not test and new_cardlist:
-        tweet('カードリスト ({}) が更新されました！ 追加されたのは次の{}枚のカードです。'.format(site_url, len(new_cardlist)))
-        new_cardlist = ' / '.join(new_cardlist)
-        new_cardlists = []
-        while len(new_cardlist) > 0:
-            new_cardlists.append(new_cardlist[:140])
-            new_cardlist = new_cardlist[140:]
-        for card in new_cardlists:
-            tweet(card)
+        tweet('カードリスト ({}) が更新されました。追加されたのは次の{}枚のカードです。'.format(site_url, len(new_cardlist)))
+        status = ''
+        statuses = []
+        while new_cardlist:
+            if len(status + new_cardlist[-1] + ' / ') < 140:
+                status += new_cardlist + new_cardlist.pop() + ' / '
+            else:
+                statuses.append(status[:-3])
+                status = ''
+        if status:
+            statuses.append(status[:-3])
+        for status in statuses:
+            tweet(status)
             sleep(1)
         shuffle()
         
