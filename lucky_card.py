@@ -117,7 +117,7 @@ def download(series_id=''):
         
     # write db
     with open(db_file, 'w') as db:
-        yaml.dump(cards, db)
+        yaml.dump(cards, db, allow_unicode=True)
 
     # tweet update
     if not test and new_cardlist:
@@ -126,7 +126,7 @@ def download(series_id=''):
         statuses = []
         while new_cardlist:
             if len(status + new_cardlist[-1] + ' / ') < 140:
-                status += new_cardlist + new_cardlist.pop() + ' / '
+                status += new_cardlist.pop() + ' / '
             else:
                 statuses.append(status[:-3])
                 status = ''
@@ -178,7 +178,7 @@ def shuffle():
     for card_id in card_ids:
         ques.append(card_id)
     with open(que_file, 'w') as q:
-        yaml.dump(ques, q)
+        yaml.dump(ques, q, allow_unicode=True)
 
 def tweet(status=''):
     '''Tweet a que.'''
@@ -234,7 +234,7 @@ def tweet(status=''):
                     cards = yaml.load(db)
                     cards[card_id]['img_url'] = img_url
                 with open(db_file, 'w') as db:
-                    yaml.dump(cards, db)
+                    yaml.dump(cards, db, allow_unicode=True)
 
         # on the evening, pop ques and check new card list
         if not morning and not test:
@@ -242,7 +242,7 @@ def tweet(status=''):
                 ques = yaml.load(q)
             ques.pop(0)
             with open(que_file, 'w') as q:
-                yaml.dump(ques, q)
+                yaml.dump(ques, q, allow_unicode=True)
             if len(ques) == 0: # que list is empty
                 shuffle()  # make new que
 
@@ -262,7 +262,7 @@ def clear():
     for (id, card) in cards.items():
         card['img_url'] = False
     with open(db_file, 'w') as db:
-        yaml.dump(cards, db)
+        yaml.dump(cards, db, allow_unicode=True)
                 
 if __name__ == '__main__':
     usage = '''\
