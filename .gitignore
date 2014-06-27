@@ -5,3 +5,5 @@
 /.credentials_for_test
 /res_test.py
 /sample_res.json
+/tweet.log
+\#*
