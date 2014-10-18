@@ -119,22 +119,8 @@ def download(series_id=''):
     with open(db_file, 'w') as db:
         yaml.dump(cards, db, allow_unicode=True)
 
-    # tweet update
+    # update
     if not test and new_cardlist:
-        tweet('カードリスト ({}) が更新されました。追加されたのは次の{}枚のカードです。'.format(site_url, len(new_cardlist)))
-        status = ''
-        statuses = []
-        while new_cardlist:
-            if len(status + new_cardlist[-1] + ' / ') < 140:
-                status += new_cardlist.pop() + ' / '
-            else:
-                statuses.append(status[:-3])
-                status = ''
-        if status:
-            statuses.append(status[:-3])
-        for status in statuses:
-            tweet(status)
-            sleep(1)
         shuffle()
         
 def img_concatenate(front, back, both):
