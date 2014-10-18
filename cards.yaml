@@ -7,12 +7,12 @@
   model: キュアハート, 'no': '02', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-03: {card_name: キュアソード, card_text: キュアソードとあそべるよ！, cardtype: allstars, img_back: 194013-03_b.png,
-  img_both: 194013-03-w.png, img_front: 194013-03_f.png, img_url: false, model: キュアソード,
-  'no': '03', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
+  img_both: 194013-03-w.png, img_front: 194013-03_f.png, img_url: 'http://t.co/LkUOhBzCqa',
+  model: キュアソード, 'no': '03', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-04: {card_name: キュアソード, card_text: キュアソードとあそべるよ！, cardtype: allstars, img_back: 194013-04_b.png,
-  img_both: 194013-04-w.png, img_front: 194013-04_f.png, img_url: false, model: キュアソード,
-  'no': '04', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
+  img_both: 194013-04-w.png, img_front: 194013-04_f.png, img_url: 'http://t.co/P8H1BKTM04',
+  model: キュアソード, 'no': '04', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-05: {card_name: キュアエース, card_text: キュアエースとあそべるよ！, cardtype: allstars, img_back: 194013-05_b.png,
   img_both: 194013-05-w.png, img_front: 194013-05_f.png, img_url: false, model: キュアエース,
@@ -27,20 +27,20 @@
   model: キュアハッピー, 'no': '07', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-08: {card_name: キュアハッピー, card_text: キュアハッピーとあそべるよ！, cardtype: allstars, img_back: 194013-08_b.png,
-  img_both: 194013-08-w.png, img_front: 194013-08_f.png, img_url: false, model: キュアハッピー,
-  'no': 08, no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
+  img_both: 194013-08-w.png, img_front: 194013-08_f.png, img_url: 'http://t.co/ndus20XQ4U',
+  model: キュアハッピー, 'no': 08, no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-09: {card_name: キュアパッション, card_text: キュアパッションとあそべるよ！, cardtype: allstars, img_back: 194013-09_b.png,
-  img_both: 194013-09-w.png, img_front: 194013-09_f.png, img_url: false, model: キュアパッション,
-  'no': 09, no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
+  img_both: 194013-09-w.png, img_front: 194013-09_f.png, img_url: 'http://t.co/vpJLRqyUUV',
+  model: キュアパッション, 'no': 09, no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-10: {card_name: キュアパッション, card_text: キュアパッションとあそべるよ！, cardtype: allstars, img_back: 194013-10_b.png,
-  img_both: 194013-10-w.png, img_front: 194013-10_f.png, img_url: false, model: キュアパッション,
-  'no': '10', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
-  series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_both: 194013-10-w.png, img_front: 194013-10_f.png, img_url: 'http://t.co/uT73JOJdzi',
+  model: キュアパッション, 'no': '10', no_max: '48', rarity: prc-hc, series_id: '194013',
+  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-11: {card_name: キュアブラック, card_text: キュアブラックとあそべるよ！, cardtype: allstars, img_back: 194013-11_b.png,
-  img_both: 194013-11-w.png, img_front: 194013-11_f.png, img_url: false, model: キュアブラック,
-  'no': '11', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
+  img_both: 194013-11-w.png, img_front: 194013-11_f.png, img_url: 'http://t.co/naZah2hLTS',
+  model: キュアブラック, 'no': '11', no_max: '48', rarity: prc-hc, series_id: '194013', series_name: happiness01,
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-12: {card_name: キュアブラック, card_text: キュアブラックとあそべるよ！, cardtype: allstars, img_back: 194013-12_b.png,
   img_both: 194013-12-w.png, img_front: 194013-12_f.png, img_url: false, model: キュアブラック,
@@ -48,8 +48,8 @@
   series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-13: {card_name: パティシエ, card_text: パティシエさんドレスでスイーツパーティーをハッピーに♥, cardtype: dress-tops-hc,
   img_back: 194013-13_b.png, img_both: 194013-13-w.png, img_front: 194013-13_f.png,
-  img_url: false, model: 愛乃めぐみ, 'no': '13', no_max: '48', rarity: prc-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/yUtfksyLdh', model: 愛乃めぐみ, 'no': '13', no_max: '48', rarity: prc-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-14: {card_name: コック, card_text: どんなりょうりもつくれちゃいそう！パーティーにはおいしいたべものね♪, cardtype: dress-tops-hc,
   img_back: 194013-14_b.png, img_both: 194013-14-w.png, img_front: 194013-14_f.png,
   img_url: false, model: 白雪ひめ, 'no': '14', no_max: '48', rarity: prc-hc, series_id: '194013',
@@ -64,7 +64,7 @@
   series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-17: {card_name: チョコバナナスイートシャツ, card_text: チョコチップのベストがかわいいね♪チョコバナナコーデがオススメだよ♥,
   cardtype: dress-tops-hc, img_back: 194013-17_b.png, img_both: 194013-17-w.png, img_front: 194013-17_f.png,
-  img_url: false, model: 黄瀬やよい, 'no': '17', no_max: '48', rarity: img_rare_ps-hc.gif,
+  img_url: 'http://t.co/VomkC7jeRH', model: 黄瀬やよい, 'no': '17', no_max: '48', rarity: img_rare_ps-hc.gif,
   series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-18: {card_name: ストロベリーチョコブラウス, card_text: おおきなストロベリーいろのリボンがとってもカワイイよ★, cardtype: dress-tops-hc,
   img_back: 194013-18_b.png, img_both: 194013-18-w.png, img_front: 194013-18_f.png,
@@ -80,7 +80,7 @@
   rarity: img_rare_s-hc.gif, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-21: {card_name: ビスケットリボンブラウス, card_text: ビスケットがらのブラウスよ。ちいさなあかいリボンがステキね★, cardtype: dress-tops-hc,
   img_back: 194013-21_b.png, img_both: 194013-21-w.png, img_front: 194013-21_f.png,
-  img_url: false, model: 美々野くるみ, 'no': '21', no_max: '48', rarity: img_rare_s-hc.gif,
+  img_url: 'http://t.co/84lsahkvrl', model: 美々野くるみ, 'no': '21', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-22: {card_name: ぐるぐるキャンディジャケット, card_text: カラフルなジャケットにぐるぐるキャンディのインナーがかわいいね！,
   cardtype: dress-tops-hc, img_back: 194013-22_b.png, img_both: 194013-22-w.png, img_front: 194013-22_f.png,
@@ -92,32 +92,32 @@
   rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-24: {card_name: ポップキャンディダウンジャケット, card_text: キャンディいっぱいのダウンジャケットでさむいふゆもあったかいね♥,
   cardtype: dress-tops-hc, img_back: 194013-24_b.png, img_both: 194013-24-w.png, img_front: 194013-24_f.png,
-  img_url: false, model: 愛乃めぐみ&調辺アコ, 'no': '24', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/cwvSAwr4MJ', model: 愛乃めぐみ&調辺アコ, 'no': '24', no_max: '48',
+  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-25: {card_name: アイ♥スイーツTシャツ, card_text: みんながだいすきなおかしがちょういっぱい！アイラブスイーツ♥, cardtype: dress-tops-hc,
   img_back: 194013-25_b.png, img_both: 194013-25-w.png, img_front: 194013-25_f.png,
   img_url: false, model: 相田マナ&桃園ラブ, 'no': '25', no_max: '48', rarity: n-hc, series_id: '194013',
   series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-26: {card_name: ふんわりマカロンチュニック, card_text: マカロンみたいにフワフワなパステルカラーのチュニックよ♪, cardtype: dress-tops-hc,
   img_back: 194013-26_b.png, img_both: 194013-26-w.png, img_front: 194013-26_f.png,
-  img_url: false, model: 菱川りっか, 'no': '26', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/L9rVTnNguB', model: 菱川りっか, 'no': '26', no_max: '48', rarity: n-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-27: {card_name: いちごケーキふうボレロ, card_text: いちごがいっぱいのボレロですね♥いちごケーキみたいにあまいボレロですわ♪,
   cardtype: dress-tops-hc, img_back: 194013-27_b.png, img_both: 194013-27-w.png, img_front: 194013-27_f.png,
   img_url: false, model: 四葉ありす&雪城ほのか, 'no': '27', no_max: '48', rarity: n-hc, series_id: '194013',
   series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-28: {card_name: ホットケーキTシャツ, card_text: ホットケーキロゴのＴシャツだよ！みずたまもようでげんきになれるね★, cardtype: dress-tops-hc,
   img_back: 194013-28_b.png, img_both: 194013-28-w.png, img_front: 194013-28_f.png,
-  img_url: false, model: 北条響, 'no': '28', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/X70jjY0LXf', model: 北条響, 'no': '28', no_max: '48', rarity: n-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-29: {card_name: チョコミントキャミ＆ファージャケット, card_text: ラブリーなチョコミントコーデだよ♪あかいリボンとファーでかわいくね★,
   cardtype: dress-tops-hc, img_back: 194013-29_b.png, img_both: 194013-29-w.png, img_front: 194013-29_f.png,
-  img_url: false, model: 明堂院いつき&秋元こまち, 'no': '29', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/N0akirkut4', model: 明堂院いつき&秋元こまち, 'no': '29', no_max: '48',
+  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-30: {card_name: カップケーキアンサンブル, card_text: カップケーキがらのアンサンブルよ。ケーキコーデでどうかしら？, cardtype: dress-tops-hc,
   img_back: 194013-30_b.png, img_both: 194013-30-w.png, img_front: 194013-30_f.png,
-  img_url: false, model: 月影ゆり, 'no': '30', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/8EObSnc61B', model: 月影ゆり, 'no': '30', no_max: '48', rarity: n-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-31: {card_name: コック, card_text: あかいエプロンでカッコよくキマるね！おいしいりょうりをつくっちゃうよ★, cardtype: dress-bottoms-hc,
   img_back: 194013-31_b.png, img_both: 194013-31-w.png, img_front: 194013-31_f.png,
   img_url: 'http://t.co/syih0FLHCh', model: 愛乃めぐみ, 'no': '31', no_max: '48', rarity: prc-hc,
@@ -144,44 +144,47 @@
   rarity: img_rare_s-hc.gif, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-37: {card_name: スイーツアップリケスキニー, card_text: スイーツのアップリケがいっぱい！みんなおいしそうにみえるね♪, cardtype: dress-bottoms-hc,
   img_back: 194013-37_b.png, img_both: 194013-37-w.png, img_front: 194013-37_f.png,
-  img_url: false, model: 白雪ひめ&南野奏, 'no': '37', no_max: '48', rarity: img_rare_s-hc.gif,
+  img_url: 'http://t.co/0G9jpYhwy4', model: 白雪ひめ&南野奏, 'no': '37', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-38: {card_name: ビスケットミニティアード, card_text: おもわずたべたくなちゃうビスケットがらのミニティアードですわ♪, cardtype: dress-bottoms-hc,
   img_back: 194013-38_b.png, img_both: 194013-38-w.png, img_front: 194013-38_f.png,
-  img_url: false, model: 円亜久里, 'no': '38', no_max: '48', rarity: img_rare_s-hc.gif,
+  img_url: 'http://t.co/pAMFUErKBu', model: 円亜久里, 'no': '38', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-39: {card_name: カラフルドーナツスカート, card_text: ちょこっとみえるドーナツがワンポイント★あたしもドーナツたべたーい！,
   cardtype: dress-bottoms-hc, img_back: 194013-39_b.png, img_both: 194013-39-w.png,
-  img_front: 194013-39_f.png, img_url: false, model: 星空みゆき&九条ひかり, 'no': '39', no_max: '48',
-  rarity: img_rare_s-hc.gif, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_front: 194013-39_f.png, img_url: 'http://t.co/kTTFgfRbKG', model: 星空みゆき&九条ひかり,
+  'no': '39', no_max: '48', rarity: img_rare_s-hc.gif, series_id: '194013', series_name: happiness01,
+  series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-40: {card_name: いちごケーキふうスカート, card_text: いちごケーキみたいなピンクレースにおおきなリボンでとってもラブリーね♥,
   cardtype: dress-bottoms-hc, img_back: 194013-40_b.png, img_both: 194013-40-w.png,
-  img_front: 194013-40_f.png, img_url: false, model: 白雪ひめ, 'no': '40', no_max: '48',
-  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_front: 194013-40_f.png, img_url: 'http://t.co/Qril5BzNp1', model: 白雪ひめ, 'no': '40',
+  no_max: '48', rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-41: {card_name: カップケーキフレアスカート, card_text: ブルーのスカートにキュートなカップケーキもようでオシャレにキメちゃおう♥,
   cardtype: dress-bottoms-hc, img_back: 194013-41_b.png, img_both: 194013-41-w.png,
-  img_front: 194013-41_f.png, img_url: false, model: 白雪ひめ, 'no': '41', no_max: '48',
-  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_front: 194013-41_f.png, img_url: 'http://t.co/aSofv9Kke6', model: 白雪ひめ, 'no': '41',
+  no_max: '48', rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-42: {card_name: ホットケーキパンツ, card_text: シンプルなボトムスにはカラフルなシューズでオシャレにキメるで！, cardtype: dress-bottoms-hc,
   img_back: 194013-42_b.png, img_both: 194013-42-w.png, img_front: 194013-42_f.png,
-  img_url: false, model: 日野あかね, 'no': '42', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/cr1tFGtKw7', model: 日野あかね, 'no': '42', no_max: '48', rarity: n-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-43: {card_name: ぐるぐるキャンディスカート, card_text: とってもカラフルなぐるぐるキャンディのロングスカートだよ♪, cardtype: dress-bottoms-hc,
   img_back: 194013-43_b.png, img_both: 194013-43-w.png, img_front: 194013-43_f.png,
-  img_url: false, model: 緑川なお, 'no': '43', no_max: '48', rarity: n-hc, series_id: '194013',
-  series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_url: 'http://t.co/6lZxGyfLm8', model: 緑川なお, 'no': '43', no_max: '48', rarity: n-hc,
+  series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-44: {card_name: カラフルスイーツベルボトム, card_text: キュートなスイーツもようにスタッズベルトでカッコよくきれますね♪,
   cardtype: dress-bottoms-hc, img_back: 194013-44_b.png, img_both: 194013-44-w.png,
   img_front: 194013-44_f.png, img_url: false, model: 青木れいか&東せつな, 'no': '44', no_max: '48',
   rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-45: {card_name: ポップキャンディカラーパンツ, card_text: ポップなキャンディカラーでさむいふゆもカラフルにおしゃれしましょ♪,
   cardtype: dress-bottoms-hc, img_back: 194013-45_b.png, img_both: 194013-45-w.png,
-  img_front: 194013-45_f.png, img_url: false, model: 黒川エレン&日向咲, 'no': '45', no_max: '48',
-  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_front: 194013-45_f.png, img_url: 'http://t.co/oR4LsfhVN4', model: 黒川エレン&日向咲,
+  'no': '45', no_max: '48', rarity: n-hc, series_id: '194013', series_name: happiness01,
+  series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-46: {card_name: チョコミントコーデュロイミニ, card_text: チョコミントカラーのタイトスカートよ♪チョコいろファーのブーツもオシャレでしょ★,
   cardtype: dress-bottoms-hc, img_back: 194013-46_b.png, img_both: 194013-46-w.png,
-  img_front: 194013-46_f.png, img_url: false, model: 蒼乃美希&春日野うらら, 'no': '46', no_max: '48',
-  rarity: n-hc, series_id: '194013', series_name: happiness01, series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
+  img_front: 194013-46_f.png, img_url: 'http://t.co/wEMEoM8vti', model: 蒼乃美希&春日野うらら,
+  'no': '46', no_max: '48', rarity: n-hc, series_id: '194013', series_name: happiness01,
+  series_text: ハピネスチャージ1だんハピネスチャージプリキュア！とうじょう！ }
 194013-47: {card_name: アイ♥スイーツカーゴ, card_text: スイーツいっぱいでおいしそう！サイドのレースでかわいくなれるね♥, cardtype: dress-bottoms-hc,
   img_back: 194013-47_b.png, img_both: 194013-47-w.png, img_front: 194013-47_f.png,
   img_url: false, model: 夢原のぞみ&夏木りん, 'no': '47', no_max: '48', rarity: n-hc, series_id: '194013',
@@ -219,8 +222,8 @@
   model: キュアパイン, 'no': '07', no_max: '48', rarity: prc-hc, series_id: '194014', series_name: happiness02,
   series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-08: {card_name: キュアパイン, card_text: キュアパインとあそべるよ！, cardtype: allstars, img_back: 194014-08_b.png,
-  img_both: 194014-08_w.png, img_front: 194014-08_f.png, img_url: false, model: キュアパイン,
-  'no': 08, no_max: '48', rarity: prc-hc, series_id: '194014', series_name: happiness02,
+  img_both: 194014-08_w.png, img_front: 194014-08_f.png, img_url: 'http://t.co/mpfbJmjBtp',
+  model: キュアパイン, 'no': 08, no_max: '48', rarity: prc-hc, series_id: '194014', series_name: happiness02,
   series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-09: {card_name: キュアレモネード, card_text: キュアレモネードとあそべるよ！, cardtype: allstars, img_back: 194014-09_b.png,
   img_both: 194014-09_w.png, img_front: 194014-09_f.png, img_url: 'http://t.co/nllLtcZUeA',
@@ -240,8 +243,8 @@
   series_id: '194014', series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-13: {card_name: 探偵（たんてい）, card_text: とってもかわいいドレスでさがしびともみつけちゃうわ♥, cardtype: dress-tops-hc,
   img_back: 194014-13_b.png, img_both: 194014-13_w.png, img_front: 194014-13_f.png,
-  img_url: false, model: 大森ゆうこ, 'no': '13', no_max: '48', rarity: prc-hc, series_id: '194014',
-  series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
+  img_url: 'http://t.co/uW4fadcRQ5', model: 大森ゆうこ, 'no': '13', no_max: '48', rarity: prc-hc,
+  series_id: '194014', series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-14: {card_name: ポリス, card_text: おまわりさんのせいふくですわ♪こまってるひとをたすけましょう！, cardtype: dress-tops-hc,
   img_back: 194014-14_b.png, img_both: 194014-14_w.png, img_front: 194014-14_f.png,
   img_url: 'http://t.co/D3AYgRmEqD', model: 円あぐり, 'no': '14', no_max: '48', rarity: prc-hc,
@@ -321,8 +324,8 @@
   series_id: '194014', series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-32: {card_name: ポリス, card_text: えいっ！やーっ★　このドレスをきればわたしもつよくなれるかな？, cardtype: dress-bottoms-hc,
   img_back: 194014-32_b.png, img_both: 194014-32_w.png, img_front: 194014-32_f.png,
-  img_url: false, model: 白雪ひめ, 'no': '32', no_max: '48', rarity: prc-hc, series_id: '194014',
-  series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
+  img_url: 'http://t.co/dnurAJOL4t', model: 白雪ひめ, 'no': '32', no_max: '48', rarity: prc-hc,
+  series_id: '194014', series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-33: {card_name: 探偵（たんてい）, card_text: めいたんていこまちはどんなじけんもかいけつよ★, cardtype: dress-bottoms-hc,
   img_back: 194014-33_b.png, img_both: 194014-33_w.png, img_front: 194014-33_f.png,
   img_url: 'http://t.co/JFpO3IN8is', model: 秋元こまち, 'no': '33', no_max: '48', rarity: prc-hc,
@@ -389,8 +392,8 @@
     とうじょう！ }
 194014-47: {card_name: ダークローズパンツ, card_text: ワイルドなはながらがステキね♥おとなっぽくかわいくなれるわ♥, cardtype: dress-bottoms-hc,
   img_back: 194014-47_b.png, img_both: 194014-47_w.png, img_front: 194014-47_f.png,
-  img_url: false, model: 月影ゆり&日向咲, 'no': '47', no_max: '48', rarity: n-hc, series_id: '194014',
-  series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
+  img_url: 'http://t.co/jscxrQWhOo', model: 月影ゆり&日向咲, 'no': '47', no_max: '48', rarity: n-hc,
+  series_id: '194014', series_name: happiness02, series_text: ハピネスチャージ2だんキュアハニー とうじょう！ }
 194014-48: {card_name: ヨーロピアンフラワースカート, card_text: スニーカーにもかわいいはながらでおんなのこらしさをプラスね♪,
   cardtype: dress-bottoms-hc, img_back: 194014-48_b.png, img_both: 194014-48_w.png,
   img_front: 194014-48_f.png, img_url: 'http://t.co/ho6EWOSdrx', model: 美々野くるみ, 'no': '48',
@@ -398,12 +401,12 @@
     とうじょう！ }
 194015-01: {card_name: キュアダイヤモンド, card_text: キュアダイヤモンドとあそべるよ！, cardtype: allstars,
   img_back: 194015-01_b.png, img_both: 194015-01-w.png, img_front: 194015-01_f.png,
-  img_url: false, model: キュアダイヤモンド, 'no': '01', no_max: '48', rarity: prc-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/VVoQGNkaMJ', model: キュアダイヤモンド, 'no': '01', no_max: '48', rarity: prc-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-02: {card_name: キュアダイヤモンド, card_text: キュアダイヤモンドとあそべるよ！, cardtype: allstars,
   img_back: 194015-02_b.png, img_both: 194015-02-w.png, img_front: 194015-02_f.png,
-  img_url: false, model: キュアダイヤモンド, 'no': '02', no_max: '48', rarity: prc-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/2sqcvLjU53', model: キュアダイヤモンド, 'no': '02', no_max: '48', rarity: prc-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-03: {card_name: キュアビューティ, card_text: キュアビューティとあそべるよ！, cardtype: allstars, img_back: 194015-03_b.png,
   img_both: 194015-03-w.png, img_front: 194015-03_f.png, img_url: 'http://t.co/urcTCO0331',
   model: キュアビューティ, 'no': '03', no_max: '48', rarity: prc-hc, series_id: '194015',
@@ -413,16 +416,16 @@
   'no': '04', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
   series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-05: {card_name: キュアビート, card_text: キュアビートとあそべるよ！, cardtype: allstars, img_back: 194015-05_b.png,
-  img_both: 194015-05-w.png, img_front: 194015-05_f.png, img_url: false, model: キュアビート,
-  'no': '05', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
+  img_both: 194015-05-w.png, img_front: 194015-05_f.png, img_url: 'http://t.co/4MB89dL9os',
+  model: キュアビート, 'no': '05', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
   series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-06: {card_name: キュアビート, card_text: キュアビートとあそべるよ！, cardtype: allstars, img_back: 194015-06_b.png,
-  img_both: 194015-06-w.png, img_front: 194015-06_f.png, img_url: false, model: キュアビート,
-  'no': '06', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
+  img_both: 194015-06-w.png, img_front: 194015-06_f.png, img_url: 'http://t.co/1gdLEyj4SG',
+  model: キュアビート, 'no': '06', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
   series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-07: {card_name: キュアマリン, card_text: キュアマリンとあそべるよ！, cardtype: allstars, img_back: 194015-07_b.png,
-  img_both: 194015-07-w.png, img_front: 194015-07_f.png, img_url: false, model: キュアマリン,
-  'no': '07', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
+  img_both: 194015-07-w.png, img_front: 194015-07_f.png, img_url: 'http://t.co/DQygB3xemc',
+  model: キュアマリン, 'no': '07', no_max: '48', rarity: prc-hc, series_id: '194015', series_name: happiness03,
   series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-08: {card_name: キュアマリン, card_text: キュアマリンとあそべるよ！, cardtype: allstars, img_back: 194015-08_b.png,
   img_both: 194015-08-w.png, img_front: 194015-08_f.png, img_url: false, model: キュアマリン,
@@ -462,7 +465,7 @@
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-17: {card_name: きらきらぼしのセーラーボーダー, card_text: ちいさなほしのかざりがキュートね。アクセもほしでそろえてみたわ♪,
   cardtype: dress-tops-hc, img_back: 194015-17_b.png, img_both: 194015-17-w.png, img_front: 194015-17_f.png,
-  img_url: false, model: 剣崎まこと, 'no': '17', no_max: '48', rarity: img_rare_ps-hc.gif,
+  img_url: 'http://t.co/sidYGHtZB5', model: 剣崎まこと, 'no': '17', no_max: '48', rarity: img_rare_ps-hc.gif,
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-18: {card_name: なついろわがらいりトップス, card_text: ほんのりわふうでだいたんないろあわせもすてきだね！, cardtype: dress-tops-hc,
   img_back: 194015-18_b.png, img_both: 194015-18-w.png, img_front: 194015-18_f.png,
@@ -470,7 +473,7 @@
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-19: {card_name: ほしあかりのパフスリーブ, card_text: キラキラあまのがわのトップスだよ！なにをおねがいしようかな♪, cardtype: dress-tops-hc,
   img_back: 194015-19_b.png, img_both: 194015-19-w.png, img_front: 194015-19_f.png,
-  img_url: false, model: 星空みゆき, 'no': '19', no_max: '48', rarity: img_rare_s-hc.gif,
+  img_url: 'http://t.co/WcBcECQ9eG', model: 星空みゆき, 'no': '19', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-20: {card_name: むらさきわふうパーカー, card_text: おちついたむらさきのはながらがきれいね。, cardtype: dress-tops-hc,
   img_back: 194015-20_b.png, img_both: 194015-20-w.png, img_front: 194015-20_f.png,
@@ -478,7 +481,7 @@
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-21: {card_name: ピンク×ブラックスターTシャツ, card_text: ピンクにブラックのおおきなほしがかっこいいわね♥, cardtype: dress-tops-hc,
   img_back: 194015-21_b.png, img_both: 194015-21-w.png, img_front: 194015-21_f.png,
-  img_url: false, model: 東せつな, 'no': '21', no_max: '48', rarity: img_rare_s-hc.gif,
+  img_url: 'http://t.co/UChBCYHWnU', model: 東せつな, 'no': '21', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-22: {card_name: はながらちりめんアンサンブル, card_text: わふうコーデにちょうせんだよ♪あかいろにちりめんでおしゃれだね！,
   cardtype: dress-tops-hc, img_back: 194015-22_b.png, img_both: 194015-22-w.png, img_front: 194015-22_f.png,
@@ -502,24 +505,24 @@
   series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-27: {card_name: プラネタリウムパフスリーブ, card_text: グラデーションがふんわりとしておんなのこらしいわ♪, cardtype: dress-tops-hc,
   img_back: 194015-27_b.png, img_both: 194015-27-w.png, img_front: 194015-27_f.png,
-  img_url: false, model: 南野奏&九条ひかり, 'no': '27', no_max: '48', rarity: n-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/jgHDVeB6Ya', model: 南野奏&九条ひかり, 'no': '27', no_max: '48', rarity: n-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-28: {card_name: たなばたアレンジトップス, card_text: まっかなわがらのきものふうドレスよ。きぶんはおとひめさま？, cardtype: dress-tops-hc,
   img_back: 194015-28_b.png, img_both: 194015-28-w.png, img_front: 194015-28_f.png,
   img_url: false, model: 調辺アコ, 'no': '28', no_max: '48', rarity: n-hc, series_id: '194015',
   series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-29: {card_name: ハイカラギンガムスポーツシャツ, card_text: ポイントをおさえたわがらのプリントがとてもすてきです♥, cardtype: dress-tops-hc,
   img_back: 194015-29_b.png, img_both: 194015-29-w.png, img_front: 194015-29_f.png,
-  img_url: false, model: 花咲つぼみ&美々野くるみ, 'no': '29', no_max: '48', rarity: n-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/dBjCoXI0TY', model: 花咲つぼみ&美々野くるみ, 'no': '29', no_max: '48',
+  rarity: n-hc, series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-30: {card_name: ハイビスカスカラーＴシャツ, card_text: おおきなハイビスカスプリントでさきどりのなつきぶん！, cardtype: dress-tops-hc,
   img_back: 194015-30_b.png, img_both: 194015-30-w.png, img_front: 194015-30_f.png,
-  img_url: false, model: 夏木りん&美翔舞, 'no': '30', no_max: '48', rarity: n-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/MmdTZcnuF0', model: 夏木りん&美翔舞, 'no': '30', no_max: '48', rarity: n-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-31: {card_name: テニス, card_text: どんなことだってまけませんわ！, cardtype: dress-bottoms-hc,
   img_back: 194015-31_b.png, img_both: 194015-31-w.png, img_front: 194015-31_f.png,
-  img_url: false, model: 四葉ありす, 'no': '31', no_max: '48', rarity: prc-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/0D0CRKBYwc', model: 四葉ありす, 'no': '31', no_max: '48', rarity: prc-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-32: {card_name: フィギュアスケーター, card_text: スピンでスカートがキラキラしますわ♪, cardtype: dress-bottoms-hc,
   img_back: 194015-32_b.png, img_both: 194015-32-w.png, img_front: 194015-32_f.png,
   img_url: false, model: 青木れいか, 'no': '32', no_max: '48', rarity: prc-hc, series_id: '194015',
@@ -534,16 +537,18 @@
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-35: {card_name: プラネットブルーティアード, card_text: プラネットコーデときらきらのシューズでほしぞらをおさんぽしよう！,
   cardtype: dress-bottoms-hc, img_back: 194015-35_b.png, img_both: 194015-35-w.png,
-  img_front: 194015-35_f.png, img_url: false, model: 桃園ラブ, 'no': '35', no_max: '48',
-  rarity: img_rare_ps-hc.gif, series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_front: 194015-35_f.png, img_url: 'http://t.co/Gt92dEhoZO', model: 桃園ラブ, 'no': '35',
+  no_max: '48', rarity: img_rare_ps-hc.gif, series_id: '194015', series_name: happiness03,
+  series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-36: {card_name: ほしあかりのティアードロング, card_text: ほしのうみをおさんぽしているきぶんになれそうだね★, cardtype: dress-bottoms-hc,
   img_back: 194015-36_b.png, img_both: 194015-36-w.png, img_front: 194015-36_f.png,
   img_url: false, model: 愛乃めぐみ&白雪ひめ, 'no': '36', no_max: '48', rarity: img_rare_s-hc.gif,
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-37: {card_name: ピンク×ブラックスタースカート, card_text: ピンクのコーデでガーリーにきめてみたわ。くろいほしがアクセントよ！,
   cardtype: dress-bottoms-hc, img_back: 194015-37_b.png, img_both: 194015-37-w.png,
-  img_front: 194015-37_f.png, img_url: false, model: 白雪ひめ&春日野うらら, 'no': '37', no_max: '48',
-  rarity: img_rare_s-hc.gif, series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_front: 194015-37_f.png, img_url: 'http://t.co/ojHFsgTVas', model: 白雪ひめ&春日野うらら,
+  'no': '37', no_max: '48', rarity: img_rare_s-hc.gif, series_id: '194015', series_name: happiness03,
+  series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-38: {card_name: なついろわがらいりイエロースキニー, card_text: なつらしいはなやかないろのダメージスキニーですわ♥, cardtype: dress-bottoms-hc,
   img_back: 194015-38_b.png, img_both: 194015-38-w.png, img_front: 194015-38_f.png,
   img_url: false, model: 円あぐり, 'no': '38', no_max: '48', rarity: img_rare_s-hc.gif,
@@ -579,32 +584,443 @@
   series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-46: {card_name: カラフルスタータイト, card_text: カラフルなスターがワンポイントになっていてとてもかわいいね♪, cardtype: dress-bottoms-hc,
   img_back: 194015-46_b.png, img_both: 194015-46-w.png, img_front: 194015-46_f.png,
-  img_url: false, model: 山吹祈里, 'no': '46', no_max: '48', rarity: n-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/WOUjKPc7Hh', model: 山吹祈里, 'no': '46', no_max: '48', rarity: n-hc,
+  series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-47: {card_name: たなばたアレンジボトムス, card_text: だいたんなわがらのスカートとソックスできものふうコーデだよ！, cardtype: dress-bottoms-hc,
   img_back: 194015-47_b.png, img_both: 194015-47-w.png, img_front: 194015-47_f.png,
   img_url: 'http://t.co/uy6EpRkI3X', model: 夢原のぞみ, 'no': '47', no_max: '48', rarity: n-hc,
   series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
 194015-48: {card_name: はながらちりめんティアード, card_text: あかとくろのわがらあわせでかっこよくきめちゃおう♪, cardtype: dress-bottoms-hc,
   img_back: 194015-48_b.png, img_both: 194015-48-w.png, img_front: 194015-48_f.png,
-  img_url: false, model: 美墨なぎさ&雪城ほのか, 'no': '48', no_max: '48', rarity: n-hc, series_id: '194015',
-  series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+  img_url: 'http://t.co/H4zuTcoGLL', model: 美墨なぎさ&雪城ほのか, 'no': '48', no_max: '48',
+  rarity: n-hc, series_id: '194015', series_name: happiness03, series_text: ハピネスチャージ3だんスポーツフェスティバルかいさい！ }
+194016-01: {card_name: キュアサニー, card_text: キュアサニーとあそべるよ！, cardtype: allstars, img_back: 194016-01_b.png,
+  img_both: 194016-01-w.png, img_front: 194016-01_f.png, img_url: false, model: キュアサニー,
+  'no': '01', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-02: {card_name: キュアサニー, card_text: キュアサニーとあそべるよ！, cardtype: allstars, img_back: 194016-02_b.png,
+  img_both: 194016-02-w.png, img_front: 194016-02_f.png, img_url: false, model: キュアサニー,
+  'no': '02', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-03: {card_name: キュアメロディ, card_text: キュアメロディとあそべるよ！, cardtype: allstars, img_back: 194016-03_b.png,
+  img_both: 194016-03-w.png, img_front: 194016-03_f.png, img_url: 'http://t.co/uKvoKM3mJk',
+  model: キュアメロディ, 'no': '03', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-04: {card_name: キュアメロディ, card_text: キュアメロディとあそべるよ！, cardtype: allstars, img_back: 194016-04_b.png,
+  img_both: 194016-04-w.png, img_front: 194016-04_f.png, img_url: false, model: キュアメロディ,
+  'no': '04', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-05: {card_name: キュアミューズ, card_text: キュアミューズとあそべるよ！, cardtype: allstars, img_back: 194016-05_b.png,
+  img_both: 194016-05-w.png, img_front: 194016-05_f.png, img_url: false, model: キュアミューズ,
+  'no': '05', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-06: {card_name: キュアミューズ, card_text: キュアミューズとあそべるよ！, cardtype: allstars, img_back: 194016-06_b.png,
+  img_both: 194016-06-w.png, img_front: 194016-06_f.png, img_url: 'http://t.co/s3pz0mHQnC',
+  model: キュアミューズ, 'no': '06', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-07: {card_name: キュアムーンライト, card_text: キュアムーンライトとあそべるよ！, cardtype: allstars,
+  img_back: 194016-07_b.png, img_both: 194016-07-w.png, img_front: 194016-07_f.png,
+  img_url: false, model: キュアムーンライト, 'no': '07', no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-08: {card_name: キュアムーンライト, card_text: キュアムーンライトとあそべるよ！, cardtype: allstars,
+  img_back: 194016-08_b.png, img_both: 194016-08-w.png, img_front: 194016-08_f.png,
+  img_url: false, model: キュアムーンライト, 'no': 08, no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-09: {card_name: キュアルージュ, card_text: キュアルージュとあそべるよ！, cardtype: allstars, img_back: 194016-09_b.png,
+  img_both: 194016-09-w.png, img_front: 194016-09_f.png, img_url: false, model: キュアルージュ,
+  'no': 09, no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-10: {card_name: キュアルージュ, card_text: キュアルージュとあそべるよ！, cardtype: allstars, img_back: 194016-10_b.png,
+  img_both: 194016-10-w.png, img_front: 194016-10_f.png, img_url: 'http://t.co/7SC60XS9bv',
+  model: キュアルージュ, 'no': '10', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-11: {card_name: ミルキィローズ, card_text: ミルキィローズとあそべるよ！, cardtype: allstars, img_back: 194016-11_b.png,
+  img_both: 194016-11-w.png, img_front: 194016-11_f.png, img_url: false, model: ミルキィローズ,
+  'no': '11', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-12: {card_name: ミルキィローズ, card_text: ミルキィローズとあそべるよ！, cardtype: allstars, img_back: 194016-12_b.png,
+  img_both: 194016-12-w.png, img_front: 194016-12_f.png, img_url: false, model: ミルキィローズ,
+  'no': '12', no_max: '54', rarity: prc-hc, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-13: {card_name: マリン, card_text: ひまわりアクセとマリンルックで、このなつもはりきっていくわよ！, cardtype: dress-tops-hc,
+  img_back: 194016-13_b.png, img_both: 194016-13-w.png, img_front: 194016-13_f.png,
+  img_url: false, model: 白雪ひめ, 'no': '13', no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-14: {card_name: リゾート, card_text: リボンのアクセントがかわいいわね。なんごくチックなアクセサリもすてきだわ, cardtype: dress-tops-hc,
+  img_back: 194016-14_b.png, img_both: 194016-14-w.png, img_front: 194016-14_f.png,
+  img_url: false, model: 氷川いおな, 'no': '14', no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-15: {card_name: ドレス（にんぎょふう）, card_text: にんぎょひめになったきぶんね♪, cardtype: dress-tops-hc,
+  img_back: 194016-15_b.png, img_both: 194016-15-w.png, img_front: 194016-15_f.png,
+  img_url: false, model: 調辺アコ, 'no': '15', no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-16: {card_name: サブマリンタンクトップ, card_text: すずしげなタンクトップよ。ボーダーのいろとボトムスをあわせてみたわ★,
+  cardtype: dress-tops-hc, img_back: 194016-16_b.png, img_both: 194016-16-w.png, img_front: 194016-16_f.png,
+  img_url: false, model: 氷川いおな, 'no': '16', no_max: '54', rarity: img_rare_ps-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-17: {card_name: ブルーウェーブオフショルダー, card_text: なみのかたちのグラデーションがうみみたいでステキね♪, cardtype: dress-tops-hc,
+  img_back: 194016-17_b.png, img_both: 194016-17-w.png, img_front: 194016-17_f.png,
+  img_url: 'http://t.co/7X5r0UgIDt', model: 蒼乃美希, 'no': '17', no_max: '54', rarity: img_rare_ps-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-18: {card_name: ピンクグラデのフェアリーキャミ, card_text: きれいなピンクのおはなとグラデーションがとてもガーリーだね♥,
+  cardtype: dress-tops-hc, img_back: 194016-18_b.png, img_both: 194016-18-w.png, img_front: 194016-18_f.png,
+  img_url: false, model: 愛乃めぐみ, 'no': '18', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-19: {card_name: アンカーネクタイセーラー, card_text: シンプルなセーラーふうシャツや！ネクタイのいかりマークがかわいいやろ？,
+  cardtype: dress-tops-hc, img_back: 194016-19_b.png, img_both: 194016-19-w.png, img_front: 194016-19_f.png,
+  img_url: false, model: 日野あかね, 'no': '19', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-20: {card_name: マリンセットアップボレロ, card_text: マリンカラーのサマーボレロだよ♥ミニハットでおしゃれどアップ！, cardtype: dress-tops-hc,
+  img_back: 194016-20_b.png, img_both: 194016-20-w.png, img_front: 194016-20_f.png,
+  img_url: false, model: 来海えりか, 'no': '20', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-21: {card_name: サファイアマルチボーダーキャミ, card_text: かさなったすそがすてきなキャミソールよ。ホットパンツとあわせてげんきにいきましょ♪,
+  cardtype: dress-tops-hc, img_back: 194016-21_b.png, img_both: 194016-21-w.png, img_front: 194016-21_f.png,
+  img_url: 'http://t.co/2iNkYIrTdH', model: 水無月かれん, 'no': '21', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-22: {card_name: ピンクマリンロリータブラウス, card_text: おんなのこらしいボーダーブラウスだよ！おおきなリボンがかわいいね♥,
+  cardtype: dress-tops-hc, img_back: 194016-22_b.png, img_both: 194016-22-w.png, img_front: 194016-22_f.png,
+  img_url: false, model: 愛乃めぐみ, 'no': '22', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-23: {card_name: みなみのクロップドＴシャツ, card_text: ハイビスカスプリントのＴシャツでなつをえんしゅつよ★, cardtype: dress-tops-hc,
+  img_back: 194016-23_b.png, img_both: 194016-23-w.png, img_front: 194016-23_f.png,
+  img_url: false, model: 氷川いおな, 'no': '23', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-24: {card_name: ビビッドマリンパーカー, card_text: なつでもすずしいさわやかなサマーパーカーだよ♥, cardtype: dress-tops-hc,
+  img_back: 194016-24_b.png, img_both: 194016-24-w.png, img_front: 194016-24_f.png,
+  img_url: false, model: 黄瀬やよい, 'no': '24', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-25: {card_name: サンセットサマーＴシャツ, card_text: なつのリゾートをイメージさせるプリントがとてもすてきですね★, cardtype: dress-tops-hc,
+  img_back: 194016-25_b.png, img_both: 194016-25-w.png, img_front: 194016-25_f.png,
+  img_url: 'http://t.co/txdQ4HlAHy', model: 青木れいか, 'no': '25', no_max: '54', rarity: n-hc,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-26: {card_name: サマーガーベラチュニック, card_text: さわやかなガーベラがらのチュニックだよ！きぶんもあかるくなっちゃうね♪,
+  cardtype: dress-tops-hc, img_back: 194016-26_b.png, img_both: 194016-26-w.png, img_front: 194016-26_f.png,
+  img_url: false, model: 山吹祈里&美墨なぎさ, 'no': '26', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-27: {card_name: レッド×ホワイトのセーラーシャツ, card_text: たいようみたいなレッドがまぶしいすいへいさんルックのＴシャツよ♪,
+  cardtype: dress-tops-hc, img_back: 194016-27_b.png, img_both: 194016-27-w.png, img_front: 194016-27_f.png,
+  img_url: false, model: 東せつな&雪城ほのか, 'no': '27', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-28: {card_name: トロピカルアロハシャツ, card_text: トロピカルプリントのかわいいシャツでなつをおもいきりたのしみましょう♪,
+  cardtype: dress-tops-hc, img_back: 194016-28_b.png, img_both: 194016-28-w.png, img_front: 194016-28_f.png,
+  img_url: 'http://t.co/Pco0WR0rYd', model: 秋元こまち, 'no': '28', no_max: '54', rarity: n-hc,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-29: {card_name: マリンボーダーボタンセーラー, card_text: うごきやすいセーラールックシャツだよ。６つのボタンがチャームポイントだね♪,
+  cardtype: dress-tops-hc, img_back: 194016-29_b.png, img_both: 194016-29-w.png, img_front: 194016-29_f.png,
+  img_url: false, model: 日向咲&美翔舞, 'no': '29', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-30: {card_name: ハワイアンパフスリーブＴシャツ, card_text: おはなのシルエットもようがかわいいね。すそのレースもすてき♥,
+  cardtype: dress-tops-hc, img_back: 194016-30_b.png, img_both: 194016-30-w.png, img_front: 194016-30_f.png,
+  img_url: false, model: 九条ひかり, 'no': '30', no_max: '54', rarity: n-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-31: {card_name: ブルーラインセーラートップス, card_text: スタンダードなセーラーのトップスね！なつはうごきやすくしましょ♪,
+  cardtype: dress-tops-hc, img_back: 194016-31_b.png, img_both: 194016-31-w.png, img_front: 194016-31_f.png,
+  img_url: false, model: 愛乃めぐみ＆氷川いおな, 'no': '31', no_max: '54', rarity: img_rare_cp-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-32: {card_name: ナイトマーメイドボレロ, card_text: おしゃれなサマーボレロだわ♥きいろのレースやリボンがすごくすてきね★,
+  cardtype: dress-tops-hc, img_back: 194016-32_b.png, img_both: 194016-32-w.png, img_front: 194016-32_f.png,
+  img_url: false, model: 大森ゆうこ＆氷川いおな, 'no': '32', no_max: '54', rarity: img_rare_cp-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-33: {card_name: サマーパープルのエレガントシャツ, card_text: ごうかなリボンと３だんグラデーションがとってもすてきね♥,
+  cardtype: dress-tops-hc, img_back: 194016-33_b.png, img_both: 194016-33-w.png, img_front: 194016-33_f.png,
+  img_url: false, model: 剣崎真琴＆氷川いおな, 'no': '33', no_max: '54', rarity: img_rare_cp-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-34: {card_name: リゾート, card_text: ふわふわのロングスカートとサンダルは、ビーチのおさんぽにぴったりだね♪, cardtype: dress-bottoms-hc,
+  img_back: 194016-34_b.png, img_both: 194016-34-w.png, img_front: 194016-34_f.png,
+  img_url: 'http://t.co/xjSO0yoG1y', model: 愛乃めぐみ, 'no': '34', no_max: '54', rarity: prc-hc,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-35: {card_name: マリン, card_text: あわせやすいシンプルなバルーンパンツよ。ストライプのリボンかざりがいいわね♪, cardtype: dress-bottoms-hc,
+  img_back: 194016-35_b.png, img_both: 194016-35-w.png, img_front: 194016-35_f.png,
+  img_url: 'http://t.co/gHxBRp8r9Y', model: 大森ゆうこ, 'no': '35', no_max: '54', rarity: prc-hc,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-36: {card_name: ドレス（にんぎょふう）, card_text: にんぎょみたいなドレスね★, cardtype: dress-bottoms-hc,
+  img_back: 194016-36_b.png, img_both: 194016-36-w.png, img_front: 194016-36_f.png,
+  img_url: false, model: 氷川いおな, 'no': '36', no_max: '54', rarity: prc-hc, series_id: '194016',
+  series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-37: {card_name: ブルーウェーブスカパン, card_text: すそのグラデーションがすごくきれい！さわやかブルーコーデでおでかけよ！,
+  cardtype: dress-bottoms-hc, img_back: 194016-37_b.png, img_both: 194016-37-w.png,
+  img_front: 194016-37_f.png, img_url: false, model: 白雪ひめ, 'no': '37', no_max: '54',
+  rarity: img_rare_ps-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-38: {card_name: サブマリンイエローロールアップ, card_text: ビビッドなイエローがたいようみたいだね。サンダルとのあいしょうもばつぐんだよ！,
+  cardtype: dress-bottoms-hc, img_back: 194016-38_b.png, img_both: 194016-38-w.png,
+  img_front: 194016-38_f.png, img_url: 'http://t.co/utVA3WDpHR', model: 明堂院いつき, 'no': '38',
+  no_max: '54', rarity: img_rare_ps-hc.gif, series_id: '194016', series_name: happiness04,
+  series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-39: {card_name: サファイアのフラワーパンツ, card_text: はでなホットパンツもうまくコーディネートしてみよう♪, cardtype: dress-bottoms-hc,
+  img_back: 194016-39_b.png, img_both: 194016-39-w.png, img_front: 194016-39_f.png,
+  img_url: false, model: 大森ゆうこ, 'no': '39', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-40: {card_name: マリンセットアップスカート, card_text: あかのラインにあわせたパンプスがおしゃれのポイントですわ♥, cardtype: dress-bottoms-hc,
+  img_back: 194016-40_b.png, img_both: 194016-40-w.png, img_front: 194016-40_f.png,
+  img_url: 'http://t.co/FkGnGQtD8a', model: 四葉ありす&春日野うらら, 'no': '40', no_max: '54',
+  rarity: img_rare_s-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-41: {card_name: アンカーがらのピンクスキニー, card_text: アンカーがらをちりばめたかわいいスキニーパンツだよ♪, cardtype: dress-bottoms-hc,
+  img_back: 194016-41_b.png, img_both: 194016-41-w.png, img_front: 194016-41_f.png,
+  img_url: false, model: 星空みゆき&黒川エレン, 'no': '41', no_max: '54', rarity: img_rare_s-hc.gif,
+  series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-42: {card_name: ピンクグラデのフラワーパンツ, card_text: ピンクのグラデーションにカラフルなはながらがすごくきれいだね！,
+  cardtype: dress-bottoms-hc, img_back: 194016-42_b.png, img_both: 194016-42-w.png,
+  img_front: 194016-42_f.png, img_url: false, model: 夢原のぞみ, 'no': '42', no_max: '54',
+  rarity: img_rare_s-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-43: {card_name: トロピカルホットパンツ, card_text: うごきやすいホットパンツでしょ！？ダメージカットふうのすそがいいかんじ♪,
+  cardtype: dress-bottoms-hc, img_back: 194016-43_b.png, img_both: 194016-43-w.png,
+  img_front: 194016-43_f.png, img_url: false, model: 白雪ひめ, 'no': '43', no_max: '54',
+  rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-44: {card_name: マリンボーダーステッチプリーツ, card_text: シンプルなボーダーのボックスプリーツよ。ステッチのラインがかわいいよね♥,
+  cardtype: dress-bottoms-hc, img_back: 194016-44_b.png, img_both: 194016-44-w.png,
+  img_front: 194016-44_f.png, img_url: 'http://t.co/wv3oYg9uCX', model: 大森ゆうこ, 'no': '44',
+  no_max: '54', rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-45: {card_name: ハワイアンマジックスカート, card_text: おおきなハイビスカスプリントがなつのリゾートにぴったりだね♪, cardtype: dress-bottoms-hc,
+  img_back: 194016-45_b.png, img_both: 194016-45-w.png, img_front: 194016-45_f.png,
+  img_url: 'http://t.co/CfA7n2sTHL', model: 相田マナ&菱川りっか, 'no': '45', no_max: '54',
+  rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-46: {card_name: みなみのはなのスカート, card_text: ポップなはなのシルエットがすごくかわいいですわ♪ポケットにもおはながついています♪,
+  cardtype: dress-bottoms-hc, img_back: 194016-46_b.png, img_both: 194016-46-w.png,
+  img_front: 194016-46_f.png, img_url: 'http://t.co/Xwj2VylC8f', model: 円あぐり, 'no': '46',
+  no_max: '54', rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-47: {card_name: サマーガーベラミニ, card_text: おおきなガーベラプリントであかるくいこう！サンダルのかざりもかわいいね♪,
+  cardtype: dress-bottoms-hc, img_back: 194016-47_b.png, img_both: 194016-47-w.png,
+  img_front: 194016-47_f.png, img_url: 'http://t.co/FAeCht7kA4', model: 緑川なお, 'no': '47',
+  no_max: '54', rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-48: {card_name: ビビッドマリンボーダースカート, card_text: カラフルなほしがかわいいね♪だいたんなドットタイツとあわせてみたよ★,
+  cardtype: dress-bottoms-hc, img_back: 194016-48_b.png, img_both: 194016-48-w.png,
+  img_front: 194016-48_f.png, img_url: false, model: 北条響, 'no': '48', no_max: '54',
+  rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-49: {card_name: レッド×ホワイトミニスカート, card_text: まっかなラインとリボンがポイントよ♪あかのトップスともにあうでしょ？,
+  cardtype: dress-bottoms-hc, img_back: 194016-49_b.png, img_both: 194016-49-w.png,
+  img_front: 194016-49_f.png, img_url: false, model: 南野奏&夏木りん, 'no': '49', no_max: '54',
+  rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-50: {card_name: ピンクマリンロリータフリルミニ, card_text: マリンカラーのあざやかなラインがかわいいフリルスカートとサンダルです♪,
+  cardtype: dress-bottoms-hc, img_back: 194016-50_b.png, img_both: 194016-50-w.png,
+  img_front: 194016-50_f.png, img_url: false, model: 花咲つぼみ, 'no': '50', no_max: '54',
+  rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-51: {card_name: サンセットサマートリプルフリル, card_text: あざやかなサンセットカラーのスカートだよ。たいようにだってまけないよ！,
+  cardtype: dress-bottoms-hc, img_back: 194016-51_b.png, img_both: 194016-51-w.png,
+  img_front: 194016-51_f.png, img_url: 'http://t.co/WwLPWgKa2A', model: 桃園ラブ, 'no': '51',
+  no_max: '54', rarity: n-hc, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-52: {card_name: ブルーラインデニムタイト, card_text: シンプルなデニムはスポーティーなコーデとあいしょうばつぐんだわ！,
+  cardtype: dress-bottoms-hc, img_back: 194016-52_b.png, img_both: 194016-52-w.png,
+  img_front: 194016-52_f.png, img_url: false, model: 白雪ひめ＆氷川いおな, 'no': '52', no_max: '54',
+  rarity: img_rare_cp-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-53: {card_name: サマーパープルのメルヘンサブリナ, card_text: クールないんしょうもおおきなはながらでおしゃれにしましょ★,
+  cardtype: dress-bottoms-hc, img_back: 194016-53_b.png, img_both: 194016-53-w.png,
+  img_front: 194016-53_f.png, img_url: false, model: 月影ゆり＆氷川いおな, 'no': '53', no_max: '54',
+  rarity: img_rare_cp-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194016-54: {card_name: ナイトマーメイドスカート, card_text: ゴージャスなマーメイドスカートでパーティのしゅやくはきまりかしら♪,
+  cardtype: dress-bottoms-hc, img_back: 194016-54_b.png, img_both: 194016-54-w.png,
+  img_front: 194016-54_f.png, img_url: false, model: 美々野くるみ＆氷川いおな, 'no': '54', no_max: '54',
+  rarity: img_rare_cp-hc.gif, series_id: '194016', series_name: happiness04, series_text: ハピネスチャージ4だんキュアフォーチュンとうじょう！ }
+194017-01: {card_name: キュアマーチ, card_text: キュアマーチとあそべるよ！, cardtype: allstars, img_back: 194017-01_b.png,
+  img_both: 194017-01-w.png, img_front: 194017-01_f.png, img_url: false, model: キュアマーチ,
+  'no': '01', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-02: {card_name: キュアマーチ, card_text: キュアマーチとあそべるよ！, cardtype: allstars, img_back: 194017-02_b.png,
+  img_both: 194017-02-w.png, img_front: 194017-02_f.png, img_url: false, model: キュアマーチ,
+  'no': '02', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-03: {card_name: キュアリズム, card_text: キュアリズムとあそべるよ！, cardtype: allstars, img_back: 194017-03_b.png,
+  img_both: 194017-03-w.png, img_front: 194017-03_f.png, img_url: false, model: キュアリズム,
+  'no': '03', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-04: {card_name: キュアリズム, card_text: キュアリズムとあそべるよ！, cardtype: allstars, img_back: 194017-04_b.png,
+  img_both: 194017-04-w.png, img_front: 194017-04_f.png, img_url: false, model: キュアリズム,
+  'no': '04', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-05: {card_name: キュアミント, card_text: キュアミントとあそべるよ！, cardtype: allstars, img_back: 194017-05_b.png,
+  img_both: 194017-05-w.png, img_front: 194017-05_f.png, img_url: false, model: キュアミント,
+  'no': '05', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-06: {card_name: キュアミント, card_text: キュアミントとあそべるよ！, cardtype: allstars, img_back: 194017-06_b.png,
+  img_both: 194017-06-w.png, img_front: 194017-06_f.png, img_url: false, model: キュアミント,
+  'no': '06', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-07: {card_name: キュアブルーム, card_text: キュアブルームとあそべるよ！, cardtype: allstars, img_back: 194017-07_b.png,
+  img_both: 194017-07-w.png, img_front: 194017-07_f.png, img_url: false, model: キュアブルーム,
+  'no': '07', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-08: {card_name: キュアブルーム, card_text: キュアブルームとあそべるよ！, cardtype: allstars, img_back: 194017-08_b.png,
+  img_both: 194017-08-w.png, img_front: 194017-08_f.png, img_url: false, model: キュアブルーム,
+  'no': 08, no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-09: {card_name: キュアイーグレット, card_text: キュアイーグレットとあそべるよ！, cardtype: allstars,
+  img_back: 194017-09_b.png, img_both: 194017-09-w.png, img_front: 194017-09_f.png,
+  img_url: false, model: キュアイーグレット, 'no': 09, no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-10: {card_name: キュアイーグレット, card_text: キュアイーグレットとあそべるよ！, cardtype: allstars,
+  img_back: 194017-10_b.png, img_both: 194017-10-w.png, img_front: 194017-10_f.png,
+  img_url: false, model: キュアイーグレット, 'no': '10', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-11: {card_name: キュアホワイト, card_text: キュアホワイトとあそべるよ！, cardtype: allstars, img_back: 194017-11_b.png,
+  img_both: 194017-11-w.png, img_front: 194017-11_f.png, img_url: false, model: キュアホワイト,
+  'no': '11', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-12: {card_name: キュアホワイト, card_text: キュアホワイトとあそべるよ！, cardtype: allstars, img_back: 194017-12_b.png,
+  img_both: 194017-12-w.png, img_front: 194017-12_f.png, img_url: false, model: キュアホワイト,
+  'no': '12', no_max: '48', rarity: prc-hc, series_id: '194017', series_name: happiness05,
+  series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-13: {card_name: いぬ, card_text: かわいいわんちゃんのケープだよ♥モフモフでラブリーだね♪, cardtype: dress-tops-hc,
+  img_back: 194017-13_b.png, img_both: 194017-13-w.png, img_front: 194017-13_f.png,
+  img_url: false, model: 愛乃めぐみ, 'no': '13', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-14: {card_name: ひよこ, card_text: ピヨピヨ♪キュートなひよこさんだよ！, cardtype: dress-tops-hc,
+  img_back: 194017-14_b.png, img_both: 194017-14-w.png, img_front: 194017-14_f.png,
+  img_url: false, model: 白雪ひめ, 'no': '14', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-15: {card_name: ピエロ, card_text: ピエロみたいにサーカスでだいにんきになれそうね♪, cardtype: dress-tops-hc,
+  img_back: 194017-15_b.png, img_both: 194017-15-w.png, img_front: 194017-15_f.png,
+  img_url: false, model: 氷川いおな, 'no': '15', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-16: {card_name: おおきないちごのパフスリーブ, card_text: おおきないちごがちょうカワイイ～♥あまーいにおいがするかも？,
+  cardtype: dress-tops-hc, img_back: 194017-16_b.png, img_both: 194017-16-w.png, img_front: 194017-16_f.png,
+  img_url: false, model: 白雪ひめ, 'no': '16', no_max: '48', rarity: img_rare_ps-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-17: {card_name: カーニバルパインホルターネック, card_text: ボトムスとあわせてパーティードレスでキメるわよ♪, cardtype: dress-tops-hc,
+  img_back: 194017-17_b.png, img_both: 194017-17-w.png, img_front: 194017-17_f.png,
+  img_url: false, model: 氷川いおな, 'no': '17', no_max: '48', rarity: img_rare_ps-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-18: {card_name: いちごロリータボレロ, card_text: おんなのこらしいボレロはいちごとドットがらでもっとかわいくなるわね♥,
+  cardtype: dress-tops-hc, img_back: 194017-18_b.png, img_both: 194017-18-w.png, img_front: 194017-18_f.png,
+  img_url: false, model: 調辺アコ＆九条ひかり, 'no': '18', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-19: {card_name: ジューシーメロンパフスリーブ, card_text: メロンがらのパフスリーブチュニックよ。メロンがたべたくなるわね♪,
+  cardtype: dress-tops-hc, img_back: 194017-19_b.png, img_both: 194017-19-w.png, img_front: 194017-19_f.png,
+  img_url: false, model: 秋元こまち, 'no': '19', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-20: {card_name: まっかなスイカのベアトップ, card_text: だいたんなスイカがらのベアトップよ。スイカはすきですか？, cardtype: dress-tops-hc,
+  img_back: 194017-20_b.png, img_both: 194017-20-w.png, img_front: 194017-20_f.png,
+  img_url: false, model: 水無月かれん, 'no': '20', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-21: {card_name: オレンジパーティートップス, card_text: ジューシーなオレンジのトップスだよ！ボトムスとあわせてげんきいっぱい♪,
+  cardtype: dress-tops-hc, img_back: 194017-21_b.png, img_both: 194017-21-w.png, img_front: 194017-21_f.png,
+  img_url: false, model: 美墨なぎさ, 'no': '21', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-22: {card_name: みずたまリンゴトップス, card_text: かわいらしいりんごがらのシャツがキュートだね♥りんごのにおいがするかも？,
+  cardtype: dress-tops-hc, img_back: 194017-22_b.png, img_both: 194017-22-w.png, img_front: 194017-22_f.png,
+  img_url: false, model: 愛乃めぐみ, 'no': '22', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-23: {card_name: いちごがらのライントップス, card_text: いちごがいまにもこぼれそう♥えりのラインがアクセントよ♪, cardtype: dress-tops-hc,
+  img_back: 194017-23_b.png, img_both: 194017-23-w.png, img_front: 194017-23_f.png,
+  img_url: false, model: 大森ゆうこ, 'no': '23', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-24: {card_name: ランダムアップルパーカー, card_text: あきらしいいろのりんごがらパーカーだよ！ドットがかわいいね♪, cardtype: dress-tops-hc,
+  img_back: 194017-24_b.png, img_both: 194017-24-w.png, img_front: 194017-24_f.png,
+  img_url: false, model: 相田マナ&菱川りっか, 'no': '24', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-25: {card_name: ぶどうのチェックパフスリーブ, card_text: チェックがらのパフスリーブだよ！ぶどうがとてもおいしそう～♥,
+  cardtype: dress-tops-hc, img_back: 194017-25_b.png, img_both: 194017-25-w.png, img_front: 194017-25_f.png,
+  img_url: false, model: 星空みゆき&日野あかね&緑川なお, 'no': '25', no_max: '48', rarity: n-hc,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-26: {card_name: フルーツワンピふうジャケット, card_text: スカートとあわせればワンピふうにコーデができてすごいオシャレだよ♪,
+  cardtype: dress-tops-hc, img_back: 194017-26_b.png, img_both: 194017-26-w.png, img_front: 194017-26_f.png,
+  img_url: false, model: 北条響, 'no': '26', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-27: {card_name: キウイフルーツブラウス, card_text: キウイがらのブラウスよ♪なんだかとてもジューシーなきぶん！, cardtype: dress-tops-hc,
+  img_back: 194017-27_b.png, img_both: 194017-27-w.png, img_front: 194017-27_f.png,
+  img_url: false, model: 黒川エレン&月影ゆり, 'no': '27', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-28: {card_name: チェリー♥チェリーシャツベスト, card_text: さくらんぼがいっぱいでとてもかわいいです♪ベストもキマっていますね！,
+  cardtype: dress-tops-hc, img_back: 194017-28_b.png, img_both: 194017-28-w.png, img_front: 194017-28_f.png,
+  img_url: false, model: 花咲つぼみ, 'no': '28', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-29: {card_name: メルヘンストロベリートップス, card_text: おとぎばなしにでてきそうないちごのトップスよ！むねのリボンがステキ♪,
+  cardtype: dress-tops-hc, img_back: 194017-29_b.png, img_both: 194017-29-w.png, img_front: 194017-29_f.png,
+  img_url: false, model: 夏木りん, 'no': '29', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-30: {card_name: スパークリングレモンＴシャツ, card_text: さわやかではじけるレモンのかおりがしそうなＴシャツです♪, cardtype: dress-tops-hc,
+  img_back: 194017-30_b.png, img_both: 194017-30-w.png, img_front: 194017-30_f.png,
+  img_url: false, model: 春日野うらら, 'no': '30', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-31: {card_name: ひよこ, card_text: ピヨピヨ～♪しっぽがとてもキュートなひよこさんだよ♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-31_b.png, img_both: 194017-31-w.png, img_front: 194017-31_f.png,
+  img_url: false, model: 大森ゆうこ, 'no': '31', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-32: {card_name: いぬ, card_text: もふもふでカワイイ～♪マロとおそろいのきぶん♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-32_b.png, img_both: 194017-32-w.png, img_front: 194017-32_f.png,
+  img_url: false, model: 相田マナ, 'no': '32', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-33: {card_name: ピエロ, card_text: ピエロのきぶんでサーカスをもりあげましょう！, cardtype: dress-bottoms-hc,
+  img_back: 194017-33_b.png, img_both: 194017-33-w.png, img_front: 194017-33_f.png,
+  img_url: false, model: 東せつな, 'no': '33', no_max: '48', rarity: prc-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-34: {card_name: おおきないちごパンツ, card_text: まあるいいちごにそっくりなボトムスだよ！いちごがたべたくなっちゃうね♪,
+  cardtype: dress-bottoms-hc, img_back: 194017-34_b.png, img_both: 194017-34-w.png,
+  img_front: 194017-34_f.png, img_url: false, model: 愛乃めぐみ, 'no': '34', no_max: '48',
+  rarity: img_rare_ps-hc.gif, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-35: {card_name: カーニバルパインスカート, card_text: フレッシュなパインいろのフリルスカートだよ♪フリルがとてもキュート♥,
+  cardtype: dress-bottoms-hc, img_back: 194017-35_b.png, img_both: 194017-35-w.png,
+  img_front: 194017-35_f.png, img_url: false, model: 山吹祈里, 'no': '35', no_max: '48',
+  rarity: img_rare_ps-hc.gif, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-36: {card_name: まっかなスイカのスリムタイト, card_text: だいたんなスイカがらのタイトスカートよ。スイカのコーデでキメましょう♪,
+  cardtype: dress-bottoms-hc, img_back: 194017-36_b.png, img_both: 194017-36-w.png,
+  img_front: 194017-36_f.png, img_url: false, model: 剣崎真琴, 'no': '36', no_max: '48',
+  rarity: img_rare_s-hc.gif, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-37: {card_name: いちごロリータフレア, card_text: いちごがらのフレアスカートがとてもおとめちっくですわ♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-37_b.png, img_both: 194017-37-w.png, img_front: 194017-37_f.png,
+  img_url: false, model: 円あぐり, 'no': '37', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-38: {card_name: ジューシーメロンボックスミニ, card_text: ドットスカートにちょっとみえるメロンがらがオシャレだね♪, cardtype: dress-bottoms-hc,
+  img_back: 194017-38_b.png, img_both: 194017-38-w.png, img_front: 194017-38_f.png,
+  img_url: false, model: 日向咲&美翔舞, 'no': '38', no_max: '48', rarity: img_rare_s-hc.gif,
+  series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-39: {card_name: オレンジパーティーバルーンパンツ, card_text: オレンジがいっぱいでジューシーなかおりがしそうなバルーンパンツよ♪,
+  cardtype: dress-bottoms-hc, img_back: 194017-39_b.png, img_both: 194017-39-w.png,
+  img_front: 194017-39_f.png, img_url: false, model: 雪城ほのか, 'no': '39', no_max: '48',
+  rarity: img_rare_s-hc.gif, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-40: {card_name: りんごみずたま２だんフリル, card_text: りんごいろのドットがポイント！トップスとあわせてりんごコーデでキマリね♥,
+  cardtype: dress-bottoms-hc, img_back: 194017-40_b.png, img_both: 194017-40-w.png,
+  img_front: 194017-40_f.png, img_url: false, model: 白雪ひめ, 'no': '40', no_max: '48',
+  rarity: n-hc, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-41: {card_name: スパークリングレモンミニフリル, card_text: いろあいがとてもフレッシュなレモンカラーのミニスカートよ♪,
+  cardtype: dress-bottoms-hc, img_back: 194017-41_b.png, img_both: 194017-41-w.png,
+  img_front: 194017-41_f.png, img_url: false, model: 大森ゆうこ＆美々野くるみ, 'no': '41', no_max: '48',
+  rarity: n-hc, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-42: {card_name: キウイフルーツマキシ, card_text: キウイがらのロングスカートよ。すこしおとなっぽいコーデね♪, cardtype: dress-bottoms-hc,
+  img_back: 194017-42_b.png, img_both: 194017-42-w.png, img_front: 194017-42_f.png,
+  img_url: false, model: 氷川いおな, 'no': '42', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-43: {card_name: いちごがらのラインパンツ, card_text: ラインのポイントやたくさんのいちごがかわいらしいですわ♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-43_b.png, img_both: 194017-43-w.png, img_front: 194017-43_f.png,
+  img_url: false, model: 四葉ありす&明堂院いつき, 'no': '43', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-44: {card_name: ぶどうのまんまるスカパン, card_text: ぶどうがらのフリルパンツだよ♪トップスとあわせてぶどうコーデにしよう！,
+  cardtype: dress-bottoms-hc, img_back: 194017-44_b.png, img_both: 194017-44-w.png,
+  img_front: 194017-44_f.png, img_url: false, model: 黄瀬やよい&青木れいか, 'no': '44', no_max: '48',
+  rarity: n-hc, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-45: {card_name: フルーツワンピふうスカート, card_text: フルーツがいっぱいね♪トップスとあわせてワンピふうコーデにしましょう♪,
+  cardtype: dress-bottoms-hc, img_back: 194017-45_b.png, img_both: 194017-45-w.png,
+  img_front: 194017-45_f.png, img_url: false, model: 南野奏, 'no': '45', no_max: '48',
+  rarity: n-hc, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-46: {card_name: チェリー♥チェリーショーパン, card_text: チェリーショートパンツにはチェリーカラーのブーツでバッチリね！,
+  cardtype: dress-bottoms-hc, img_back: 194017-46_b.png, img_both: 194017-46-w.png,
+  img_front: 194017-46_f.png, img_url: false, model: 来海えりか, 'no': '46', no_max: '48',
+  rarity: n-hc, series_id: '194017', series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-47: {card_name: ランダムアップルカーゴ, card_text: りんごいっぱいのカーゴだよ♪げんきいっぱいにうごけそうだね♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-47_b.png, img_both: 194017-47-w.png, img_front: 194017-47_f.png,
+  img_url: false, model: 桃園ラブ&蒼乃美希, 'no': '47', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
+194017-48: {card_name: メルヘンストロベリーミニ, card_text: トップスとあわせればメルヘンなきぶんになれるいちごコーデだよ♥, cardtype: dress-bottoms-hc,
+  img_back: 194017-48_b.png, img_both: 194017-48-w.png, img_front: 194017-48_f.png,
+  img_url: false, model: 夢原のぞみ, 'no': '48', no_max: '48', rarity: n-hc, series_id: '194017',
+  series_name: happiness05, series_text: ハピネスチャージ5だんハピネスハロウィンパーティ★ }
 194906-01: {card_name: ラブリーピンクファージャケット, card_text: わたしにピッタリのラブリーなファージャケットだね♪さむさもへっちゃら！,
   cardtype: dress-tops-hc, img_back: 194906-pahc01_b.png, img_both: 194906-pahc01-w.png,
   img_front: 194906-pahc01_f.png, img_url: false, model: 愛乃めぐみ＆相田マナ, 'no': '01', no_max: false,
   rarity: promo, series_id: '194906', series_name: happiness-promo, series_text: PAHCプロモ}
 194906-02: {card_name: ラベンダーリボンチュニック, card_text: ラベンダーいろのチュニックだよ☆リボンがおんなのこらしくてステキだね！,
   cardtype: dress-tops-hc, img_back: 194906-pahc02_b.png, img_both: 194906-pahc02-w.png,
-  img_front: 194906-pahc02_f.png, img_url: false, model: 愛乃めぐみ, 'no': '02', no_max: false,
-  rarity: promo, series_id: '194906', series_name: happiness-promo, series_text: PAHCプロモ}
+  img_front: 194906-pahc02_f.png, img_url: 'http://t.co/TNXY1NDQwI', model: 愛乃めぐみ,
+  'no': '02', no_max: false, rarity: promo, series_id: '194906', series_name: happiness-promo,
+  series_text: PAHCプロモ}
 194906-03: {card_name: さんだんリボンのフリルキャミソール, card_text: ブルーコーデでキメるわ♥リボンがいっぱいでカワイイでしょ？,
   cardtype: dress-tops-hc, img_back: 194906-pahc03_b.png, img_both: 194906-pahc03-w.png,
   img_front: 194906-pahc03_f.png, img_url: false, model: 白雪ひめ, 'no': '03', no_max: false,
   rarity: promo, series_id: '194906', series_name: happiness-promo, series_text: PAHCプロモ}
 194906-04: {card_name: ドットレッドリボンブラウス, card_text: おじょうさまみたいでステキ！なんだかたのしいきぶんになれちゃうね♪,
   cardtype: dress-tops-hc, img_back: 194906-pahc04_b.png, img_both: 194906-pahc04-w.png,
-  img_front: 194906-pahc04_f.png, img_url: false, model: 愛乃めぐみ＆白雪ひめ, 'no': '04', no_max: false,
-  rarity: promo, series_id: '194906', series_name: happiness-promo, series_text: PAHCプロモ}
+  img_front: 194906-pahc04_f.png, img_url: 'http://t.co/cBhiDrhKhx', model: 愛乃めぐみ＆白雪ひめ,
+  'no': '04', no_max: false, rarity: promo, series_id: '194906', series_name: happiness-promo,
+  series_text: PAHCプロモ}
 194906-05: {card_name: ラベンダーリボンフリル, card_text: サイドのリボンがとってもキュート♪はながらとレースはとってもあうわ♥,
   cardtype: dress-bottoms-hc, img_back: 194906-pahc05_b.png, img_both: 194906-pahc05-w.png,
   img_front: 194906-pahc05_f.png, img_url: 'http://t.co/NZxABEebsZ', model: 白雪ひめ,
