@@ -120,7 +120,7 @@ def download(series_id=''):
         yaml.dump(cards, db, allow_unicode=True)
 
     # update
-    if not test and new_cardlist:
+    if new_cardlist:
         shuffle()
         
 def img_concatenate(front, back, both):
@@ -215,15 +215,14 @@ def tweet(status=''):
             res = api.update_with_media(filename, status=status)
             img_url = res['entities']['media'][0]['url']
             # add img_url to db
-            if not test:
-                with open(db_file) as db:
-                    cards = yaml.load(db)
-                    cards[card_id]['img_url'] = img_url
-                with open(db_file, 'w') as db:
-                    yaml.dump(cards, db, allow_unicode=True)
+            with open(db_file) as db:
+                cards = yaml.load(db)
+                cards[card_id]['img_url'] = img_url
+            with open(db_file, 'w') as db:
+                yaml.dump(cards, db, allow_unicode=True)
 
         # on the evening, pop ques and check new card list
-        if not morning and not test:
+        if not morning:
             with open(que_file) as q:
                 ques = yaml.load(q)
             ques.pop(0)
@@ -236,7 +235,7 @@ def tweet(status=''):
         time = parser.parse(res['created_at']).astimezone()
         time = datetime.strftime(time, '%Y-%m-%d %H:%M:%S')
         status = res['text']
-        log_text = ','.join([time,str(test),card_id,status]) + '\n'
+        log_text = ','.join([time,card_id,status]) + '\n'
         print('Tweet:', log_text)
         with open(log_file, 'a') as log:
             log.write(log_text)
@@ -252,15 +251,13 @@ def clear():
                 
 if __name__ == '__main__':
     usage = '''\
-usage: {0} [test] <command> [<args>]
+usage: {0} <command> [<args>]
 command:
   download [<series_id>]  {1}
   tweet [<status>]        {2}
   redownload              {3}
   shuffle                 {4}
-  clear                   {5}
-test:
-  if 'test' is given as the first argument, post tweet to the test account.'''.format(
+  clear                   {5}'''.format(
           basename(sys.argv[0]),
           download.__doc__,
           tweet.__doc__,
@@ -271,12 +268,6 @@ test:
     if len(sys.argv) == 1:
         print(usage)
     else:
-        if sys.argv[1] == 'test':
-            test = True
-            cred_file = '.credentials_for_test'
-            sys.argv.pop(1)
-        else:
-            test = False
         if sys.argv[1] == 'download':
             if len(sys.argv) > 2:
                 series_id = sys.argv[2]
