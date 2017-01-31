@@ -10,8 +10,8 @@ from datetime import datetime
 from dateutil import parser
 import requests
 from PIL import Image
-from twython import Twython
 from bs4 import BeautifulSoup
+from get_tweepy import *
 
 # settings
 db_file = 'cards.yaml'
@@ -172,10 +172,10 @@ def tweet(status=''):
     with open(cred_file) as f:
         app_key, app_secret, oauth_token, oauth_secret = \
                             [x.strip() for x in f]
-    t = Twython(app_key, app_secret, oauth_token, oauth_secret)
+    api = get_api('pre_lucky_card')
     
     if status: # manual tweet
-        t.update_status(status=status)
+        api.update_status(status=status)
     else:
         # read que
         with open(que_file) as q:
@@ -209,10 +209,10 @@ def tweet(status=''):
         # tweet
         if card['img_url']:
             status += ' ' + card['img_url']
-            res = t.update_status(status=status)
+            res = api.update_status(status=status)
         else:
-            img = open(img_dir + 'both/' + img_both, 'rb')
-            res = t.update_status_with_media(status=status, media=img)
+            filename = img_dir + 'both/' + img_both
+            res = api.update_with_media(filename, status=status)
             img_url = res['entities']['media'][0]['url']
             # add img_url to db
             if not test:
