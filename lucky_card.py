@@ -213,7 +213,7 @@ def tweet(status=''):
         else:
             filename = img_dir + 'both/' + img_both
             res = api.update_with_media(filename, status=status)
-            img_url = res['entities']['media'][0]['url']
+            img_url = res.entities['media'][0]['url']
             # add img_url to db
             with open(db_file) as db:
                 cards = yaml.load(db)
@@ -232,9 +232,9 @@ def tweet(status=''):
                 shuffle()  # make new que
 
         # write tweet status log
-        time = parser.parse(res['created_at']).astimezone()
+        time = res.created_at.astimezone()
         time = datetime.strftime(time, '%Y-%m-%d %H:%M:%S')
-        status = res['text']
+        status = res.text
         log_text = ','.join([time,card_id,status]) + '\n'
         print('Tweet:', log_text)
         with open(log_file, 'a') as log:
