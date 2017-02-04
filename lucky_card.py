@@ -41,7 +41,7 @@ def download(series_id=''):
     r = requests.get(site_url)
     site_card_list_url = r.url
     r.encoding = 'utf-8'  # prevent moji-bake
-    soup = BeautifulSoup(r.text)
+    soup = BeautifulSoup(r.text, 'lxml')
     site_cards = soup.find_all('table')[1:]
     new_cardlist = []
     for card in site_cards:
