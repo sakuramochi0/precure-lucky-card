@@ -8,6 +8,7 @@ from time import sleep
 import random
 from datetime import datetime
 from dateutil import parser
+import pytz
 import requests
 from PIL import Image
 from bs4 import BeautifulSoup
@@ -232,7 +233,7 @@ def tweet(status=''):
                 shuffle()  # make new que
 
         # write tweet status log
-        time = res.created_at.astimezone()
+        time = pytz.utc.localize(res.created_at).astimezone()
         time = datetime.strftime(time, '%Y-%m-%d %H:%M:%S')
         status = res.text
         log_text = ','.join([time,card_id,status]) + '\n'
